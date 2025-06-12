@@ -1,0 +1,8 @@
+[B12_3][Monthly Income(USD)][589,606,1409,680]
+[B12_3][Length of Employment][1470,606,2291,680]
+[B12_3][Preferred Move-in Date][589,926,1408,999]
+[B12_3][Select Term][1790,862,2007,906]
+[B12_3][Maximum Monthly Rent(USD)][589,1097,1409,1171]
+[B12_3][Preferred Area][1470,1097,2291,1172]
+[B12_3][No][921,1353,1015,1397]
+[B12_3][If yes,please descibe your pets][589,1512,2291,1633]

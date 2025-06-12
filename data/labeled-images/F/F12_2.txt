@@ -1,0 +1,5 @@
+[F12_2][Select study type][718,1492,1109,1528]
+[F12_2][Clinical Trial][718,1542,1109,1578]
+[F12_2][Observational Study][718,1592,1109,1628]
+[F12_2][Survey-based Research][718,1642,1109,1678]
+

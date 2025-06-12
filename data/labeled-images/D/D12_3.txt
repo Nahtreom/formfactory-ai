@@ -1,0 +1,5 @@
+[D12_3][Select priority level][598,623,1090,668]
+[D12_3][Urgent - System Down][598,673,1090,718]
+[D12_3][High - Work Blocked][598,723,1090,768]
+[D12_3][Medium - Limited Functionality][598,773,1090,818]
+[D12_3][Low - Minor Issue][598,823,1090,868]

@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+{% block title %}Patient Consent Form{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Patient Consent Form for Surgery/Procedure</h1>
+    
+    <div class="card shadow">
+        <div class="card-body">
+            <form method="POST" id="patientConsentForm">
+                <!-- Patient Information -->
+                <h4 class="mb-3">Patient Information</h4>
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <label for="patientName" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="patientName" name="patientName" required>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="dateOfBirth" class="form-label">Date of Birth</label>
+                        <input type="date" class="form-control" id="dateOfBirth" name="dateOfBirth" required>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="medicalRecordNumber" class="form-label">Medical Record Number</label>
+                        <input type="text" class="form-control" id="medicalRecordNumber" name="medicalRecordNumber" required>
+                    </div>
+                </div>
+
+                <!-- Procedure Information -->
+                <h4 class="mb-3 mt-4">Procedure Information</h4>
+                <div class="mb-3">
+                    <label for="procedureName" class="form-label">Name of Procedure</label>
+                    <input type="text" class="form-control" id="procedureName" name="procedureName" required>
+                </div>
+                <div class="mb-3">
+                    <label for="surgeon" class="form-label">Surgeon/Physician Name</label>
+                    <input type="text" class="form-control" id="surgeon" name="surgeon" required>
+                </div>
+
+                <!-- Consent Statements -->
+                <h4 class="mb-3 mt-4">Consent Statements</h4>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="procedureConsent" name="procedureConsent" required>
+                    <label class="form-check-label" for="procedureConsent">
+                        I understand the nature of the procedure and its associated risks
+                    </label>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="questionConsent" name="questionConsent" required>
+                    <label class="form-check-label" for="questionConsent">
+                        I have had the opportunity to ask questions and they have been answered satisfactorily
+                    </label>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="alternativesConsent" name="alternativesConsent" required>
+                    <label class="form-check-label" for="alternativesConsent">
+                        I understand the alternatives to this procedure
+                    </label>
+                </div>
+
+                <!-- Emergency Contact -->
+                <h4 class="mb-3 mt-4">Emergency Contact</h4>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="emergencyName" class="form-label">Emergency Contact Name</label>
+                        <input type="text" class="form-control" id="emergencyName" name="emergencyName" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="emergencyPhone" class="form-label">Emergency Contact Phone</label>
+                        <input type="tel" class="form-control" id="emergencyPhone" name="emergencyPhone" required>
+                    </div>
+                </div>
+
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-danger">Submit Consent Form</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %} 

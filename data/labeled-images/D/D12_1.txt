@@ -1,0 +1,7 @@
+[D12_1][Select request type][609,528,1052,572]
+[D12_1][Select priority level][598,623,1090,668]
+[D12_1][Subject][402,782,2477,857]
+[D12_1][Detailed Description][402,954,2477,1172]
+[D12_1][Location/Department][402,1271,2477,1344]
+[D12_1][Number of Affected Users][402,1442,2477,1516]
+[D12_1][e.g.,Mon-Fri 9AM-5PM][402,1614,2477,1689]

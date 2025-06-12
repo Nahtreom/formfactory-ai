@@ -1,0 +1,5 @@
+[C13_3][Learning Objectives *][402,323,2477,493]
+[C13_3][Professional Biography *][402,754,2477,925]
+[C13_3][C/VResume *][402,1070,2477,1145]
+[C13_3][Previous Speaking Experience][402,1290,2477,1461]
+[C13_3][Lecture][402,1731,427,1754]

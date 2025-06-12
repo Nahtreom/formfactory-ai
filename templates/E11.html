@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+{% block title %}Personal Loan Application{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Personal Loan Application</h1>
+    
+    <div class="card shadow">
+        <div class="card-body">
+            <form method="POST" id="loanApplicationForm">
+                <!-- Personal Information -->
+                <h4 class="mb-3">Personal Information</h4>
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <label for="firstName" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="firstName" name="firstName">
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="middleName" class="form-label">Middle Name</label>
+                        <input type="text" class="form-control" id="middleName" name="middleName">
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="lastName" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="lastName" name="lastName">
+                    </div>
+                </div>
+
+                <!-- Loan Details -->
+                <h4 class="mb-3 mt-4">Loan Details</h4>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="loanAmount" class="form-label">Loan Amount ($)</label>
+                        <input type="number" class="form-control" id="loanAmount" name="loanAmount">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="loanTerm" class="form-label">Loan Term (months)</label>
+                        <select class="form-select" id="loanTerm" name="loanTerm">
+                            <option value="">Select term</option>
+                            <option value="12">12 months</option>
+                            <option value="24">24 months</option>
+                            <option value="36">36 months</option>
+                            <option value="48">48 months</option>
+                            <option value="60">60 months</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Employment Information -->
+                <h4 class="mb-3 mt-4">Employment Information</h4>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="employmentStatus" class="form-label">Employment Status</label>
+                        <select class="form-select" id="employmentStatus" name="employmentStatus">
+                            <option value="">Select status</option>
+                            <option value="fullTime">Full-time</option>
+                            <option value="partTime">Part-time</option>
+                            <option value="selfEmployed">Self-employed</option>
+                            <option value="retired">Retired</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="monthlyIncome" class="form-label">Monthly Income ($)</label>
+                        <input type="number" class="form-control" id="monthlyIncome" name="monthlyIncome">
+                    </div>
+                </div>
+
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-warning">Submit Application</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %} 

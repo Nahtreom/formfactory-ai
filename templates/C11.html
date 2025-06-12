@@ -1,0 +1,109 @@
+{% extends 'base.html' %}
+{% block title %}Art Exhibition Submission{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-purple mb-4">Art Exhibition Submission Form</h1>
+    
+    <form method="POST" enctype="multipart/form-data">
+        <div class="card shadow-sm mb-4">
+            <div class="card-body">
+                <!-- 艺术家信息 -->
+                <h3 class="card-title mb-4">Artist Information</h3>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="artist_name">Artist Name *</label>
+                            <input type="text" class="form-control" id="artist_name" name="artist_name">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" class="form-control" id="email" name="email">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 作品信息 -->
+                <h3 class="card-title mb-4">Artwork Details</h3>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="artwork_title">Artwork Title *</label>
+                            <input type="text" class="form-control" id="artwork_title" name="artwork_title">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="medium">Medium *</label>
+                            <select class="form-control" id="medium" name="medium">
+                                <option value="">Select Medium</option>
+                                <option value="painting">Painting</option>
+                                <option value="sculpture">Sculpture</option>
+                                <option value="photography">Photography</option>
+                                <option value="digital">Digital Art</option>
+                                <option value="mixed">Mixed Media</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="dimensions">Dimensions (in cm) *</label>
+                            <input type="text" class="form-control" id="dimensions" name="dimensions" placeholder="e.g., 100 x 80 x 5">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="year">Year Created *</label>
+                            <input type="number" class="form-control" id="year" name="year" min="1900" max="2024">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="description">Artwork Description *</label>
+                    <textarea class="form-control" id="description" name="description" rows="4"></textarea>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="artwork_image">Artwork Image *</label>
+                    <input type="file" class="form-control" id="artwork_image" name="artwork_image" accept="image/*">
+                    <small class="text-muted">Maximum file size: 5MB. Accepted formats: JPG, PNG</small>
+                </div>
+
+                <!-- 展览偏好 -->
+                <h3 class="card-title mb-4">Exhibition Preferences</h3>
+                <div class="form-group mb-3">
+                    <label for="exhibition_period">Preferred Exhibition Period</label>
+                    <select class="form-control" id="exhibition_period" name="exhibition_period">
+                        <option value="spring">Spring 2024</option>
+                        <option value="summer">Summer 2024</option>
+                        <option value="fall">Fall 2024</option>
+                        <option value="winter">Winter 2024</option>
+                    </select>
+                </div>
+
+                <div class="form-check mb-3">
+                    <input type="checkbox" class="form-check-input" id="for_sale" name="for_sale">
+                    <label class="form-check-label" for="for_sale">Artwork is available for sale</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group mb-4">
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="terms" name="terms">
+                <label class="form-check-label" for="terms">
+                    I agree to the terms and conditions of the exhibition submission *
+                </label>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-purple btn-lg">Submit Artwork</button>
+    </form>
+</div>
+{% endblock %} 

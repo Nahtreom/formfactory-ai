@@ -1,0 +1,4 @@
+[B11_3][Current Company Valuation(USD)][589,609,2292,683]
+[B11_3][Purpose of Funding][589,780,2292,949]
+[B11_3][Business Model][589,1195,2292,1365]
+[B11_3][Target Market][589,1463,2292,1633]

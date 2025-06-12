@@ -1,0 +1,137 @@
+{% extends 'base.html' %}
+{% block title %}Scholarship Application{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Scholarship Application Form</h1>
+    
+    <div class="card shadow">
+        <div class="card-body">
+            <form method="POST" id="scholarshipForm">
+                <!-- Personal Information -->
+                <h4 class="mb-3">Personal Information</h4>
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <label for="firstName" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="firstName" name="firstName">
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="middleName" class="form-label">Middle Name</label>
+                        <input type="text" class="form-control" id="middleName" name="middleName">
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="lastName" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="lastName" name="lastName">
+                    </div>
+                </div>
+
+                <!-- Academic Information -->
+                <h4 class="mb-3 mt-4">Academic Information</h4>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="studentId" class="form-label">Student ID</label>
+                        <input type="text" class="form-control" id="studentId" name="studentId">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="gpa" class="form-label">Current GPA</label>
+                        <input type="number" class="form-control" id="gpa" name="gpa" step="0.01" min="0" max="4.0">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="major" class="form-label">Major/Field of Study</label>
+                        <input type="text" class="form-control" id="major" name="major">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="academicYear" class="form-label">Academic Year</label>
+                        <select class="form-select" id="academicYear" name="academicYear">
+                            <option value="">Select year</option>
+                            <option value="freshman">Freshman</option>
+                            <option value="sophomore">Sophomore</option>
+                            <option value="junior">Junior</option>
+                            <option value="senior">Senior</option>
+                            <option value="graduate">Graduate</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Financial Information -->
+                <h4 class="mb-3 mt-4">Financial Information</h4>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="financialAid" class="form-label">Current Financial Aid</label>
+                        <select class="form-select" id="financialAid" name="financialAid">
+                            <option value="">Select option</option>
+                            <option value="none">None</option>
+                            <option value="loans">Student Loans</option>
+                            <option value="grants">Grants</option>
+                            <option value="other">Other Scholarships</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="familyIncome" class="form-label">Annual Family Income</label>
+                        <select class="form-select" id="familyIncome" name="familyIncome">
+                            <option value="">Select range</option>
+                            <option value="0-30000">$0 - $30,000</option>
+                            <option value="30001-60000">$30,001 - $60,000</option>
+                            <option value="60001-90000">$60,001 - $90,000</option>
+                            <option value="90001-plus">$90,001+</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Achievements & Activities -->
+                <h4 class="mb-3 mt-4">Achievements & Activities</h4>
+                <div class="mb-3">
+                    <label for="achievements" class="form-label">Academic Achievements</label>
+                    <textarea class="form-control" id="achievements" name="achievements" rows="3"
+                        placeholder="List your academic achievements, honors, and awards"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="extracurricular" class="form-label">Extracurricular Activities</label>
+                    <textarea class="form-control" id="extracurricular" name="extracurricular" rows="3"
+                        placeholder="Describe your involvement in clubs, organizations, or community service"></textarea>
+                </div>
+
+                <!-- Essay -->
+                <h4 class="mb-3 mt-4">Personal Statement</h4>
+                <div class="mb-3">
+                    <label for="essay" class="form-label">Statement of Purpose (500 words max)</label>
+                    <textarea class="form-control" id="essay" name="essay" rows="6"
+                        placeholder="Explain why you deserve this scholarship and how it will help you achieve your academic and career goals"></textarea>
+                </div>
+
+                <!-- References -->
+                <h4 class="mb-3 mt-4">References</h4>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="reference1" class="form-label">Academic Reference</label>
+                        <input type="text" class="form-control" id="reference1" name="reference1"
+                            placeholder="Professor/Instructor Name">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="reference1Email" class="form-label">Reference Email</label>
+                        <input type="email" class="form-control" id="reference1Email" name="reference1Email">
+                    </div>
+                </div>
+
+                <!-- Supporting Documents -->
+                <h4 class="mb-3 mt-4">Supporting Documents</h4>
+                <div class="mb-3">
+                    <label for="transcript" class="form-label">Academic Transcript</label>
+                    <input type="file" class="form-control" id="transcript" name="transcript">
+                </div>
+                <div class="mb-3">
+                    <label for="recommendationLetter" class="form-label">Letter of Recommendation</label>
+                    <input type="file" class="form-control" id="recommendationLetter" name="recommendationLetter">
+                </div>
+
+
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-primary">Submit Application</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

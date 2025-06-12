@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+{% block title %}Health Insurance Claim Form{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Health Insurance Claim Form</h1>
+    
+    <div class="card shadow">
+        <div class="card-body">
+            <form method="POST" id="insuranceClaimForm">
+                <!-- Policy Information -->
+                <h4 class="mb-3">Insurance Policy Information</h4>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="policyNumber" class="form-label">Policy Number</label>
+                        <input type="text" class="form-control" id="policyNumber" name="policyNumber" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="policyHolder" class="form-label">Policy Holder Name</label>
+                        <input type="text" class="form-control" id="policyHolder" name="policyHolder" required>
+                    </div>
+                </div>
+
+                <!-- Claim Details -->
+                <h4 class="mb-3 mt-4">Claim Details</h4>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="serviceDate" class="form-label">Date of Service</label>
+                        <input type="date" class="form-control" id="serviceDate" name="serviceDate" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="claimAmount" class="form-label">Claim Amount ($)</label>
+                        <input type="number" class="form-control" id="claimAmount" name="claimAmount" required step="0.01">
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="serviceType" class="form-label">Type of Service</label>
+                    <select class="form-select" id="serviceType" name="serviceType" required>
+                        <option value="">Select service type</option>
+                        <option value="consultation">Doctor Consultation</option>
+                        <option value="procedure">Medical Procedure</option>
+                        <option value="medication">Prescription Medication</option>
+                        <option value="laboratory">Laboratory Tests</option>
+                        <option value="emergency">Emergency Care</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label for="diagnosis" class="form-label">Diagnosis/Condition</label>
+                    <textarea class="form-control" id="diagnosis" name="diagnosis" rows="2" required></textarea>
+                </div>
+
+                <!-- Provider Information -->
+                <h4 class="mb-3 mt-4">Healthcare Provider Information</h4>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="providerName" class="form-label">Provider Name</label>
+                        <input type="text" class="form-control" id="providerName" name="providerName" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="providerNumber" class="form-label">Provider ID Number</label>
+                        <input type="text" class="form-control" id="providerNumber" name="providerNumber" required>
+                    </div>
+                </div>
+
+                <!-- Document Upload -->
+                <h4 class="mb-3 mt-4">Supporting Documents</h4>
+                <div class="mb-3">
+                    <label for="medicalBills" class="form-label">Medical Bills</label>
+                    <input type="file" class="form-control" id="medicalBills" name="medicalBills" required>
+                </div>
+                <div class="mb-3">
+                    <label for="prescriptions" class="form-label">Prescriptions/Medical Reports</label>
+                    <input type="file" class="form-control" id="prescriptions" name="prescriptions">
+                </div>
+
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-danger">Submit Claim</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %} 

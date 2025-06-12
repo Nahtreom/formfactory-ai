@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Registration</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .form-section {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .section-title {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e9ecef;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4 text-center">Student Course Registration</h1>
+        
+        <form method="POST">
+            <!-- 学生信息部分 -->
+            <div class="form-section">
+                <h3 class="section-title">Student Information</h3>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="student_name">Full Name</label>
+                            <input type="text" class="form-control" id="student_name" name="student_name">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="student_id">Student ID</label>
+                            <input type="text" class="form-control" id="student_id" name="student_id">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" name="email">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone" name="phone">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 课程选择部分 -->
+            <div class="form-section">
+                <h3 class="section-title">Course Selection</h3>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="semester">Semester</label>
+                            <select class="form-control" id="semester" name="semester">
+                                <option value="">Select Semester</option>
+                                <option value="Fall 2024">Fall 2024</option>
+                                <option value="Spring 2025">Spring 2025</option>
+                                <option value="Summer 2025">Summer 2025</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="program">Program</label>
+                            <select class="form-control" id="program" name="program">
+                                <option value="">Select Program</option>
+                                <option value="Software Engineering">Software Engineering</option>
+                                <option value="Computer Science">Computer Science</option>
+                                <option value="Data Science">Data Science</option>
+                                <option value="Information Technology">Information Technology</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 课程选择复选框 -->
+                <div class="form-group mt-3">
+                    <label>Select Courses</label>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="course1" name="courses[]" value="CS101">
+                                <label class="form-check-label" for="course1">CS101 - Introduction to Programming</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="course2" name="courses[]" value="CS102">
+                                <label class="form-check-label" for="course2">CS102 - Data Structures</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="course3" name="courses[]" value="CS103">
+                                <label class="form-check-label" for="course3">CS103 - Database Systems</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="course4" name="courses[]" value="CS104">
+                                <label class="form-check-label" for="course4">CS104 - Web Development</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 附加信息部分 -->
+            <div class="form-section">
+                <h3 class="section-title">Additional Information</h3>
+                <div class="form-group">
+                    <label for="comments">Special Requirements or Comments</label>
+                    <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
+                </div>
+            </div>
+
+            <!-- 提交按钮 -->
+            <div class="text-center mb-5">
+                <button type="submit" class="btn btn-primary btn-lg">Submit Registration</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+```

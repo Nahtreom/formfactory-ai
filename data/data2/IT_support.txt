@@ -1,0 +1,328 @@
+1) Subject: Entire office network down
+
+Request Type: Network Issue  
+Priority Level: Urgent-System Down  
+
+Hello,
+
+I am writing to report an urgent network issue affecting all departments, with all network access down across the entire office. The problem began around 10:30 AM today. As a result, employees are unable to access the internet, file servers, or any internal systems. The number of affected users is approximately 50.
+
+Please prioritize this issue due to its critical nature, as it impacts all business operations. You may reach out to me during our preferred contact time, Mon-Fri 9AM-5PM, for any additional details or updates. Currently, there are no available screenshots to provide.
+
+For further communication or assistance, please feel free to contact me directly at michael.johnson@company.com or via phone at +1 555-9876.
+
+Thank you for your prompt attention to this urgent matter.
+
+Best regards,  
+Michael Johnson
+
+2) Subject: CRM software not loading
+
+Request Type: Software Issue  
+Priority Level: High - Work Blocked  
+Location/Department: Sales  
+Number of Affected Users: 20  
+Preferred Contact Time: Mon-Fri 9AM-6PM  
+Your Name: Emma Williams  
+Your Email: emma.williams@company.com  
+Contact Phone Number: +1 555-7654  
+  
+The CRM software is not launching for any users. When attempting to open the CRM software, users receive an error message saying "Application Failed to Load." This issue is blocking all sales and customer service activities. This is a high-priority issue as it is affecting 20 users in the Sales department, and it is critical that this is resolved promptly to ensure minimal disruption to business operations. As there are no screenshots available, please contact me at the provided email or phone number during our preferred contact time for further assistance. Your prompt attention to this issue would be greatly appreciated.
+
+3) Olivia Davis from the HR department is submitting an IT support request for a hardware issue with a printer that is currently set at a medium priority level due to limited functionality. The subject of the request is "Printer not responding." The printer in the HR department is not responding, and further detailed description indicates that the printer was working fine yesterday, but now it shows an error message every time a print job is sent. The printer is still powered on, but no prints are coming out. This issue impacts 5 users, and Olivia requests contact during preferred hours from Monday to Friday between 9 AM and 5 PM. Although no screenshots are provided, you can reach Olivia at olivia.davis@company.com or by phone at +1 555-2345 for further information or updates regarding this matter.
+
+4) Lucas Brown, a member of the Development department, is submitting an Access/Permission Request marked as "Low - Minor Issue" for the subject "Requesting admin access to server". The request arises because, as a senior developer, he needs admin access to manage system configurations. Lucas explains further in the detailed description that admin access to the internal server is necessary to make configuration changes related to their project, as he currently only has limited user access. At present, this issue affects only one user—Lucas himself. To ensure a smooth resolution, he is available for contact Monday through Friday from 9 AM to 6 PM, with no additional screenshots provided. For follow-up, Lucas can be reached via email at lucas.brown@company.com or by phone at +1 555-7890.
+
+5) I am submitting a support request for a Network Issue with a High-Work Blocked priority level. The subject of this request is "Wi-Fi not working in conference room." The Wi-Fi connection in the conference room is not working. The Wi-Fi works fine in other areas of the office, but in the conference room, no devices can connect to the network. This issue is affecting 10 users in the Conference Room. Please address this issue during our preferred contact time, which is Mon-Fri 9AM-5PM. There are no screenshots available for this request. My contact information is as follows: Sophia Lee, email sophia.lee@company.com, and phone number +1 555-1212. Your prompt attention to this matter is appreciated.
+
+6) Subject: Excel crashing when opening large files
+
+I am writing to report a Software Issue on behalf of the Finance department. We are experiencing a Medium - Limited Functionality problem where Excel crashes whenever opening files larger than 50MB. Whenever we try to open large Excel files, the application crashes. This has been an issue for the past week, and it’s affecting multiple users in the finance team. The number of affected users is currently 7. We are seeking resolution for this issue at the earliest, as it is disrupting our operations.
+
+Please contact me during our Preferred Contact Time, Mon-Fri 9AM-6PM, to discuss this matter further. I have not attached any Screenshots, as they are not available at this time. For more information, you can reach me, Benjamin Harris, at benjamin.harris@company.com or via phone at +1 555-3412. I look forward to your prompt assistance in addressing this issue.
+
+7) Request Type: Other  
+Priority Level: Low - Minor Issue  
+Subject: Missing desk chair  
+
+My name is Ava Wilson, and I am facing an issue related to a missing desk chair. I have noticed that my desk chair has been missing for a few days from my workstation. I’ve reported it to the office admin team, but it hasn’t been replaced yet. This issue is impacting only me, with 1 user affected, within the Operations department. Please reach out to me at your earliest convenience; my preferred contact time is Mon-Fri 9AM-5PM. You can contact me via email at ava.wilson@company.com or by phone at +1 555-6321. There are no screenshots to provide for this request. Your assistance in resolving this matter would be greatly appreciated.
+
+8) Subject: Slow internet speed in accounting department
+
+Request Type: Network Issue  
+Priority Level: Medium - Limited Functionality
+
+Internet speed has been very slow for the past few days in the accounting department. The internet speed has dropped significantly, and it’s impacting the ability to access cloud-based tools. This issue has been ongoing for about 3 days. The location affected is the Accounting department, with 8 users experiencing this issue.
+
+Please reach out to Ethan Davis at ethan.davis@company.com or contact him via phone at +1 555-4567. The preferred contact time is Mon-Fri 9AM-5PM. There are no screenshots available to illustrate the issue further.  
+
+Thank you for your prompt attention to this matter.
+
+9) This is an Access/Permission Request with a Priority Level of High- Work Blocked. The issue, summarized in the Subject "Unable to access project repository," is critically impacting workflow. Specifically, I do not have access to the project repository. I need access to the project repository to complete my tasks, but I keep getting a permission denied error when I try to access it. This is blocking my work. This problem is reported from the Development department, affecting 1 user. I would appreciate contact during my Preferred Contact Time, which is Mon-Fri 9AM-6PM. Please note, no screenshots have been provided. For further communication, I can be reached by email at mason.clark@company.com or by phone at +1 555-7654. Thank you for addressing this urgent matter. My name is Mason Clark.
+
+10) Lily Johnson from the Customer Support department has submitted a Hardware Issue with a Priority Level of Low - Minor Issue. The subject of the request is "Keyboard malfunctioning." The keyboard is not responding to certain keys. Specifically, some keys on my keyboard, including the space bar and 'Enter' key, are not responding. It is making it difficult to work efficiently. This issue affects only one user. Lily is available for contact Mon-Fri from 9AM-5PM and can be reached via email at lily.johnson@company.com or by phone at +1 555-8976. There are no screenshots available for this issue.
+
+11) Request Type: Software Issue. Priority Level: Urgent-System Down. Subject: Email server down. The email server is down and employees cannot send or receive emails. We are unable to access the email system, both for internal and external communication. The issue began around 8 AM today and is affecting all employees. Location/Department: All departments. Number of Affected Users: 100. Preferred Contact Time: Mon-Fri 9AM-5PM. Screenshots (Optional): None. Your Name: Jacob Miller. Your Email: jacob.miller@company.com. Contact Phone Number: +1 555-1234.
+
+12) Isabella Moore from the Project Management department is submitting an IT support request concerning an Access/Permission Request with a priority level of Medium - Limited Functionality. The subject of the request is "Access request for project files." Isabella is currently encountering an issue where she is unable to access certain project files due to permission restrictions. As a project manager, she requires access to specific shared project files, but her current access level does not allow her to view or edit them. The issue affects her personally, as only one user is impacted. Isabella prefers to be contacted between Monday to Friday from 9 AM to 6 PM regarding this matter. There are no screenshots provided with this request. She can be reached via email at isabella.moore@company.com or by phone at +1 555-2345.
+
+13) Request Type: Network Issue
+
+Hello IT Support Team,
+
+My name is Ethan Williams, and I am writing to report a network issue that is currently affecting all departments. The problem is categorized as High- Work Blocked due to its impact on work productivity. The subject of this request is Network latency affecting work. High latency on the network is slowing down all work processes. Specifically, the network latency has been unusually high for the last two hours, making it difficult to work on cloud-based tools or access shared drives. This issue is impacting approximately 50 users across various departments.
+
+To address this matter urgently, please note that the preferred contact time for this issue is Mon-Fri 9AM-5PM. Unfortunately, I do not have any screenshots to provide at this time. However, for any further communication or clarification, you can reach me via email at ethan.williams@company.com or contact my phone number at +1 555-8765.
+
+Thank you for your prompt attention to this matter.
+
+Best regards,
+
+Ethan Williams
+
+14) Charlotte Scott from the Marketing department has submitted a hardware issue IT support request. The issue, categorized with a priority level of "Low - Minor Issue," is titled "Mouse not functioning properly." The brief description of the issue notes that her "mouse is intermittently not responding." In the detailed description, Charlotte explains that "the mouse stops responding randomly, and it requires unplugging and plugging back in to start working again. This is causing minor interruptions in my workflow." This issue affects only one user. Charlotte is available for contact from Monday to Friday, 9 AM to 5 PM. She can be reached via email at charlotte.scott@company.com or by phone at +1 555-6543. There are no screenshots provided.
+
+15) James Jackson from the Accounting department is experiencing a high-priority software issue, where work is being blocked due to the accounting software not syncing data. The brief description of the issue is that the accounting software is not syncing financial data to the cloud. A more detailed description reveals that whenever an update is made in the software, it does not sync with the cloud database, causing data discrepancies between local and cloud systems. This issue is impacting 10 users. There are no screenshots provided at this time. James prefers to be contacted between Monday to Friday, from 9 AM to 6 PM. For further communication, James can be reached via email at james.jackson@company.com or by phone at +1 555-9876.
+
+16) Request Type: Network Issue  
+Priority Level: Medium - Limited Functionality  
+Subject: Intermittent Wi-Fi disconnects in office  
+In the All departments location, there is a pressing network issue where Wi-Fi intermittently disconnects in certain areas of the office. This has been affecting approximately 30 users. Employees are reporting intermittent Wi-Fi disconnections in the lobby and meeting rooms, disrupting work during important calls and meetings. Considering the impact on daily operations, I would appreciate it if the support team could look into this issue. For further correspondence, please contact me, Mia Harris, via email at mia.harris@company.com or by phone at +1 555-2345, any time between Mon-Fri 9AM-5PM. Screenshots were not available for this issue. Thank you for your attention to this matter.
+
+17) Subject: Desk lamp not working
+
+Hello IT Support,
+
+I am writing to submit a support request categorized under "Other" with a "Low - Minor Issue" priority level. The subject of the request is a desk lamp not working. The desk lamp on my workstation is not turning on. I’ve checked the power supply, but the lamp is still not working. I would appreciate it if it could be replaced. This issue is located in the Operations department, and currently, only one user is affected. I am available for contact Monday through Friday from 9AM to 5PM. You can reach me via email at liam.adams@company.com or by phone at +1 555-4321.
+
+Thank you for your assistance.
+
+Best regards,  
+Liam Adams
+
+18) Request Type: Hardware Issue  
+Priority Level: High- Work Blocked
+
+Subject: Laptop screen cracked
+
+The screen of my laptop is cracked and not usable. My laptop screen was cracked during an accidental fall, and now it's difficult to work. I need a replacement screen or a new laptop. This issue is affecting one user and is categorized under the priority level of High- Work Blocked, as it is significantly impacting my daily tasks. I am located in the Customer Support department. For further communication, I am available for contact during Mon-Fri 9AM-5PM. Although I do not have any screenshots to include, I am reachable via email at noah.thompson@company.com or by phone at +1 555-3456. Thank you for your prompt attention to this matter.
+
+Best regards,  
+Noah Thompson
+
+19) Ava Nelson from the Marketing department is submitting an IT Support Request with the Request Type of Access/Permission Request. The Priority Level is set to Medium - Limited Functionality. The Subject of the request is "Request for admin access to content management system." 
+
+The Brief description of the issue is that Ava needs admin access to the content management system to upload new blog posts. In the Detailed Description, Ava explains that she currently has user access but requires admin rights to upload and manage new content for the company blog, as her current permissions are limited. This issue affects only one user. Ava prefers to be contacted between Monday and Friday from 9 AM to 6 PM. No screenshots have been provided. 
+
+For further communications, Ava can be reached via her email at ava.nelson@company.com or by phone at +1 555-6789.
+
+20) Here is the structured IT support request paragraph based on the provided form data:
+
+Harper Green from All departments has submitted a Network Issue request with a Priority Level of Low - Minor Issue. The Subject of the request is Slow internet speed during video calls. The internet speed during video calls is slower than usual. The video calls are lagging and breaking up intermittently. This issue seems to only affect video calls, not regular internet browsing. A total of 25 users are affected. There are no screenshots provided for this issue. Harper can be contacted via email at harper.green@company.com or by phone at +1 555-9087. The Preferred Contact Time is Mon-Fri 9AM-5PM.
+
+21) Request Type: Network Issue  
+Priority Level: Urgent-System Down  
+Subject: VPN is not working
+
+The VPN is not allowing employees to connect remotely. When trying to connect to the company VPN, users are getting an authentication error. This issue has blocked all remote access. The problem is affecting the IT department, with a total of 50 users unable to connect remotely. Given the high priority of this issue, as it deals with remote access for numerous employees, immediate assistance is required. Please contact me at your earliest convenience within the preferred timeframe of Mon-Fri 9AM-6PM. I can be reached via email at ben.wright@cloudsolutions.com or by phone at +1 555-3344. There are no screenshots available for this issue. Thank you for your prompt attention to this matter. Regards, Benjamin Wright.
+
+22) Request Type: Hardware Issue  
+Priority Level: High- Work Blocked  
+Subject: Monitor flickering  
+
+Isabel Turner from the Sales department is experiencing a high-priority hardware issue that has resulted in a work-blocking situation. The monitor attached to her workstation flickers continuously and distorts the display, making it unusable for work. This problem affects only Isabel, and she has not provided any screenshots to further illustrate the issue. Isabel can be reached via email at isabel.turner@xpertsales.com or by phone at +1 555-8790. She is available for contact from Monday to Friday between 9 AM and 5 PM to further discuss or resolve this issue.
+
+23) Subject: IT Support Request - Slack app not syncing messages
+
+Hello IT Support Team,
+
+I am writing to request assistance with a Software Issue that we are experiencing at the Marketing department. The issue has been classified as Medium - Limited Functionality in regard to priority. Specifically, the problem relates to the Slack app not syncing messages across devices. When accessing Slack from my mobile device, messages are not appearing instantly, with a delay of over 15 minutes between devices, affecting 4 users in our department.
+
+For any follow-up communication or troubleshooting efforts, please feel free to reach out to me. My preferred contact time is Mon-Fri, 9AM-6PM. You can contact me via email at david.foster@marketingpro.com or by phone at +1 555-5623. Please note that there are no screenshots available for this issue.
+
+Thank you for your prompt attention to this matter.
+
+Best regards,
+
+David Foster
+
+24) Subject: No access to HR document repository
+
+Request Type: Access/Permission Request  
+Priority Level: Low - Minor Issue  
+Location/Department: HR  
+Number of Affected Users: 1  
+
+I am writing to request assistance with an access issue. I am currently unable to access HR documents due to permission restrictions. I need access to the HR document repository to view employee files, but my permissions do not allow me to open or download documents. This issue is affecting only myself at this time.  
+
+Please note that there are no screenshots available to demonstrate the issue. I am available for contact from Monday to Friday between 9 AM and 5 PM.  
+
+For further communication, please reach out to me, Hannah Perez, at hannah.perez@corporatesolutions.com or via my contact phone number +1 555-3257.
+
+Thank you for your attention to this matter.
+
+25) Subject: Word document is corrupt
+
+This is a Software Issue with a Priority Level of High-Work Blocked. My name is Jared Mitchell, and I am contacting you from the Legal department. I cannot open a Word document due to corruption. Every time I try to open a specific Word document, it crashes the application. I am unable to recover the document and need assistance to retrieve it. This issue affects only one user. I am available for contact from Mon-Fri, 9 AM to 6 PM. Please feel free to contact me at my email, jared.mitchell@legaldynamics.com, or my phone number, +1 555-7410. No screenshots are available as none were provided. Your prompt assistance in resolving this matter would be greatly appreciated.
+
+26) Emily Reed from the Customer Support department is experiencing a hardware issue with her headset, which has led to medium priority due to limited functionality. The subject of the request is "Headset audio issues." Emily reports that her headset has inconsistent audio output. Specifically, the audio quality on her headset is very poor, with static present and the sound cutting in and out during calls. Only one user is affected by this issue. To address this problem, Emily can be contacted during her preferred time, which is between Monday and Friday, from 9 AM to 5 PM. She has not provided any screenshots to support this issue. For further communication or assistance, she can be reached via email at emily.reed@customersupport.com or by phone at +1 555-2301.
+
+27) Support Request Type: Access/Permission Request
+
+Priority Level: Low - Minor Issue
+
+Subject: Cannot update project permissions
+
+Brief description of the issue: I need to update project permissions for my team, but the system is not letting me.
+
+Detailed Description: I am trying to update the permissions of my team members in the project management tool, but the 'Save' button is not working. This issue has delayed some of our project progress.
+
+Location/Department: Development
+
+Number of Affected Users: 3
+
+Preferred Contact Time: Mon-Fri 9AM-6PM
+
+Screenshots (Optional): None
+
+Requestor's details are as follows: My name is Jack Harrison, and I am a part of the Development department. You can contact me via email at jack.harrison@devsolutions.com or call me at +1 555-4652 for further details or clarification regarding this support request.
+
+28) Request Type: Software Issue  
+Priority Level: Low - Minor Issue  
+Subject: Outlook email notifications delayed  
+
+My name is Sophia Mitchell from the Operations department, and I am writing to report a software issue with our Outlook email system. The brief description of the issue is that Outlook notifications are delayed by 5-10 minutes. I am currently experiencing a problem where I am receiving email notifications in Outlook with a significant delay. It is causing issues in responding to time-sensitive emails, and this affects just myself, accounting for 1 affected user.
+
+I am available for contact during our usual business hours, Mon-Fri 9AM-5PM, and can be reached via email at sophia.mitchell@operations.com or by phone at +1 555-6872. There are no screenshots available for this request. Your assistance in resolving this matter promptly is greatly appreciated.
+
+29) Subject: Laptop charging port broken
+
+My name is Mia Clark, and I am reporting a Hardware Issue with Medium - Limited Functionality priority. The laptop charging port is not working. The charging port on my laptop is no longer functioning, so I cannot charge my laptop. This is a major inconvenience as I need the laptop for work. This issue is originating from the Design department and currently affects 1 user. You can reach me at mia.clark@designsquad.com or by phone at +1 555-4912. I am available for contact Mon-Fri 9AM-5PM. No screenshots are provided. Thank you for addressing this issue promptly.
+
+30) Subject: Wi-Fi dropping intermittently
+
+I am submitting an IT support request for a Network Issue with a Priority Level of High- Work Blocked. The problem pertains to our Wi-Fi connection, which keeps dropping in certain areas of the office. Specifically, the Wi-Fi signal drops out frequently in our conference rooms, making it hard to conduct meetings without interruptions. This issue is affecting the Meeting Rooms, with approximately 10 users impacted. I would prefer to be contacted for troubleshooting or any updates between Mon-Fri 9AM-5PM. There are no screenshots available for this issue. 
+
+Please feel free to contact me, Liam Evans, at liam.evans@networksolutions.com or via phone at +1 555-6543 for any further details or assistance regarding this request. Thank you for addressing this matter promptly.
+
+31) Subject: Server down due to hardware failure
+
+Olivia Brooks from the IT department submits a critical hardware issue request concerning the main server. The main server has crashed due to a hardware failure and needs immediate attention. The main server has gone offline due to a critical hardware issue, and it’s affecting all connected services. This issue has impacted 150 users, necessitating urgent resolution. You can contact Olivia at any time, as her preferred contact time is 24/7. For further communication, reach out via email at olivia.brooks@techsolutions.com or by phone at +44 7800 123456. There are currently no screenshots available for this issue. Immediate action is required to restore the server's functionality and resume normal operations.
+
+32) Noah Richards from the Sales department has reported a Software Issue with High- Work Blocked priority concerning the CRM system not syncing data. The CRM system is not syncing customer data across devices, which is affecting 5 users. The issue began following the last update, preventing access to updated customer information across devices. Noah Richards can be reached at noah.richards@salesteam.com or via phone at +1 415-987-6543. He is available for contact Monday through Friday from 8 AM to 4 PM. No screenshots were provided with the request.
+
+33) Subject: Slow internet speed during meetings
+
+Request Type: Network Issue  
+Priority Level: Medium - Limited Functionality  
+
+The internet speed during meetings is extremely slow, causing audio and video lag. The internet speed slows down dramatically during virtual meetings, making it difficult to participate effectively. This issue is affecting 15 users across all departments. Please address this network issue during the preferred contact time of Mon-Fri 9AM-6PM.  
+
+Contact Information:  
+Name: Grace Taylor  
+Email: grace.taylor@virtualmeetings.com  
+Phone Number: +1 305-123-9876  
+
+Screenshots: None
+
+34) Subject: Software update notification bug
+
+I am submitting a support request regarding a Software Issue that has arisen, categorized under the Priority Level of Low - Minor Issue. The issue pertains to a software update notification bug affecting our Operations department. Specifically, the software update notification keeps popping up, even after the update has been completed. Every time I launch the software, a notification pops up saying there's a new update available, despite having already updated it. Currently, the issue impacts 2 users within our department.
+
+For further correspondence, I am available during Mon-Fri from 9AM to 5PM. Please feel free to reach out via email at elijah.foster@operationscorp.com or phone at +1 323-987-6543 for any additional details or to coordinate a resolution. Although no screenshots are available, I am eager to assist with any troubleshooting steps necessary. Thank you for addressing this matter promptly.
+
+Sincerely,  
+Elijah Foster
+
+35) Request Type: Access/Permission Request
+
+Priority Level: Medium - Limited Functionality
+
+Subject: Permission to access restricted files
+
+Brief description of the issue: I need permission to access restricted files on the shared drive.
+
+Detailed Description: I’ve been assigned to a project that requires me to access certain files on the shared drive, but I do not have the necessary permissions.
+
+Location/Department: Project Management
+
+Number of Affected Users: 1
+
+Preferred Contact Time: Mon-Fri 9AM-5PM
+
+Screenshots (Optional): None
+
+Your Name: Lucas King
+
+Your Email: lucas.king@projectmanagers.com
+
+Contact Phone Number: +1 212-555-9876
+
+I am submitting an IT support request due to an access/permission issue affecting my ability to work on an assigned project. The priority level for this request is medium - limited functionality, as it is currently impacting my role in project management. The issue relates to my need for permission to access restricted files on the shared drive. I’ve been assigned to a project that requires me to access certain files on the shared drive, but I do not have the necessary permissions. This is currently affecting only myself, and no other users are impacted at this time. Please contact me during my preferred hours, which are Monday through Friday, 9 AM to 5 PM, should you require further details. Your prompt assistance in granting me access will be highly appreciated. You can reach me, Lucas King, via email at lucas.king@projectmanagers.com or by phone at +1 212-555-9876.
+
+36) Request Type: Hardware Issue  
+Priority Level: High - Work Blocked  
+Subject: Laptop keyboard malfunction  
+
+Zoe Parker from the Development department is experiencing a hardware issue classified as a high-priority work blocker. The keyboard on my laptop is malfunctioning. More specifically, certain keys on the laptop keyboard are not responding, which is hindering my ability to work efficiently. This problem affects only Zoe Parker. Zoe prefers to be contacted between Mon-Fri 9AM-6PM. For further communication, Zoe can be reached via email at zoe.parker@devteam.com or contacted by phone at +1 617-234-8765. There are no screenshots available to describe the issue further. Prompt assistance is required to resolve this issue and restore normal working conditions.
+
+37) Charlotte Bennett from the HR department is experiencing a software issue under the subject "Issues with calendar syncing." This issue has been categorized with a priority level of Medium - Limited Functionality. The brief description provided states, "My calendar events are not syncing across devices," and upon further elaboration, the detailed description reads, "My calendar events are not showing up on my mobile device, even though they are visible on my desktop application." This issue is affecting a total of 2 users. Charlotte prefers to be contacted for resolution between Monday to Friday, 9 AM to 5 PM. No screenshots have been provided for this request. For further communication, Charlotte Bennett can be reached via email at charlotte.bennett@hrsolutions.com or by phone at +44 7700 111222.
+
+38) Liam Anderson from All departments has submitted a Network Issue IT support request regarding an intermittent Wi-Fi signal. This issue is classified as Low - Minor Issue. The Wi-Fi signal drops intermittently, making it hard to stay connected. Wi-Fi connectivity is inconsistent, especially in the kitchen and lounge areas. This is causing minor disruptions. The problem affects 10 users, and it is requested to address the issue during the preferred contact time of Mon-Fri 9AM-5PM. No screenshots are available. You can reach Liam at liam.anderson@networkteam.com or call +1 631-555-2356 for any further information or assistance.
+
+39) Amelia Roberts from the Operations department has submitted a support request categorized as "Other" with a priority level of "Low - Minor Issue." The subject of the request is "Broken office chair." Amelia reports that the office chair is broken and uncomfortable to sit in. Specifically, the chair’s backrest is unstable and the wheels do not roll smoothly, making it uncomfortable to use. This issue affects one user, and Amelia prefers to be contacted between Monday to Friday, from 9 AM to 5 PM. No screenshots have been attached to this request. Amelia can be reached via email at amelia.roberts@officeops.com or by phone at +1 512-555-0987 for further communication and assistance regarding this matter.
+
+40) Aiden Collins from the R&D department is submitting an Access/Permission Request with a Priority Level of Medium - Limited Functionality. The subject of the request is Access to the new project folder. The brief description of the issue is that Aiden needs access to the new project folder on our shared drive. The detailed description is that Aiden has been assigned to the new project but does not have the permissions to access the shared project folder where the initial files are stored. This issue affects 2 users. The preferred contact time for resolving this matter is Mon-Fri 9AM-5PM. There are no screenshots attached to the request. For further communication, Aiden can be reached at aiden.collins@rndteam.com or via phone at +1 702-555-6734.
+
+41) Rachel Green has submitted an urgent IT support request indicating a network issue classified as "Urgent-System Down." The request, with the subject "Complete network outage in the office," highlights that there is a complete network outage affecting all departments. Specifically, the entire office network is down, and no one can access the internet or internal systems. In the detailed description, it is reiterated that the situation involves a total network outage, impacting all users in the office, and preventing access to shared files and internet resources, necessitating immediate resolution. There are approximately 100 affected users. The preferred contact time for addressing this issue is 24/7. Although no screenshots were provided, Rachel Green can be reached for further communication at either rachel.green@techcorp.com or by phone at +1 917-555-0912. The matter requires urgent attention to restore normal operations across all departments.
+
+42) IT Support Team,
+
+I am submitting a request for immediate assistance concerning a "Software Issue" with a priority level marked as "High- Work Blocked." The subject of this issue is "Issue with data synchronization in the CRM." The specific problem we are experiencing is that customer data is not syncing properly between the CRM and the email marketing tool. Additionally, the data from our CRM system is not syncing correctly with the email marketing tool, which is causing issues with customer follow-up. 
+
+This problem is affecting the Sales department, and there are currently 5 users who are impacted by this issue. To discuss this matter further, I am available to be contacted during our regular working hours of Mon-Fri 9AM-5PM. Unfortunately, there are no screenshots available to provide at this time.
+
+Please reach out to me, Ethan Wright, via email at ethan.wright@salesforce.com or by phone at +44 7921 555678 for any further information or clarification required to resolve this issue promptly.
+
+Thank you for your immediate attention to this pressing matter.
+
+Best regards,
+
+Ethan Wright
+
+43) Subject: Broken mouse  
+Request Type: Hardware Issue  
+Priority Level: Low - Minor Issue  
+
+I am writing to request support regarding a hardware issue. The mouse is not responding properly. My mouse is intermittently unresponsive, causing delays when working on the computer. I need a replacement. The issue is currently affecting only myself within the Engineering department. For further communication, please feel free to reach out during the preferred contact time, which is Mon-Fri 9AM-6PM. There are no screenshots available for this issue. You can contact me, Oliver Scott, at oliver.scott@engcorp.com or via phone at +1 514-555-8372. Your prompt assistance in this matter would be appreciated. Thank you.
+
+44) Subject: Permission to access shared project folder
+
+This is an Access/Permission Request with a Priority Level of Medium - Limited Functionality. My name is Sophia Mitchell, and I am from the Project Management department. I am experiencing an issue where I am unable to access the shared folder for the new project. Specifically, I need access to the shared folder for our current project, but I am unable to open it due to permission issues. This issue affects 3 users within my department. For any follow-up, I am available for contact from Monday to Friday between 9 AM and 5 PM. You can reach me at +1 760-555-2356 or via email at sophia.mitchell@pmgroup.com. No screenshots are available for this issue. Your assistance in resolving this matter would be greatly appreciated. Thank you.
+
+45) Isaac Palmer from the Marketing department is experiencing a high-priority software issue, as his work is currently blocked. The problem is that the Microsoft Teams application is not launching after the recent update. Isaac attempted to restart Teams following the latest update, but it still won't launch, preventing him from collaborating with his team. This issue is affecting three users within the department. For further assistance, please contact Isaac Palmer at isaac.palmer@marketingsolutions.com or via phone at +1 415-555-1789. He is available for contact from Monday to Friday, between 9 AM and 5 PM. Please note that no screenshots are available for this issue.
+
+46) Subject: Unclear menu options in new software update
+
+I am submitting an IT support request classified under "Other" with a "Low - Minor Issue" priority level. The concern is related to some menu options in the latest software update to our project management software, which are unclear. The recent update introduced new features, but it resulted in menu options becoming ambiguous and difficult to navigate. This issue primarily affects the IT department and currently impacts one user. For further communication, please reach out during our preferred contact hours, Mon-Fri from 9AM to 6PM. Although I have not included any screenshots, I am available to provide further information if necessary. For assistance, you can contact me, Liam Turner, via email at liam.turner@techsolutions.com or by phone at +1 718-555-4890. Thank you for addressing this support request.
+
+47) Subject: Wi-Fi signal very weak in certain areas
+
+Request Type: Network Issue  
+Priority Level: High- Work Blocked  
+
+This is a request from Mia Foster in the context of a network issue pertaining to weak Wi-Fi connectivity. The problem has been identified across all departments, affecting 10 users. Specifically, the Wi-Fi connectivity is weak in some parts of the office. In certain sections of the office, the Wi-Fi signal is weak, leading to slow internet speeds and constant disconnections. Given the impact, the priority level is classified as high since work is being blocked. I am available for contact from Monday to Friday, between 9 AM and 6 PM. Although no screenshots are provided, I can be reached via email at mia.foster@networksolutions.com or phone at +1 905-555-2378 for further communication. 
+
+48) Subject: Unable to save progress in Google Docs
+
+This is a Software Issue with a Priority Level of Medium - Limited Functionality. Changes in Google Docs aren’t being saved properly. After making edits in Google Docs, the document doesn’t save the changes. This is preventing me from completing my work. The issue is occurring in the Legal department and affects 1 user. I am available for contact from Mon-Fri 9AM-6PM with no screenshots provided at this time. For further communication, please contact Daniel Harris via email at daniel.harris@legalsolutions.com or by phone at +1 808-555-9099.
+
+49) Ava Walker from the Human Resources department is requesting an Access/Permission Request with a Low - Minor Issue priority level. The subject of this request is a need to reset her password for accessing the internal portal. She has forgotten her password for the company portal and needs it to be reset so she can access it again. This issue affects 1 user. Ava prefers to be contacted between Mon-Fri 9AM-5PM. She has not attached any screenshots. For further communication, Ava can be reached via her email at ava.walker@hrcorp.com or contacted directly at +1 612-555-1901.
+
+50) Subject: Slow connection to external servers
+
+Request Type: Network Issue  
+Priority Level: Medium - Limited Functionality
+
+I am writing to request assistance with a network issue my team is experiencing. The connection to external servers is very slow. When connecting to external servers, the speed is abysmally slow, which is delaying the data transfer and project timelines. This issue is affecting the Data Management department, with 2 users impacted by the slow connection. We would appreciate it if you could look into this matter and reach out during our preferred contact hours of Mon-Fri 9AM-6PM. Please contact me, Evan Scott, at +1 321-555-6789 or via email at evan.scott@datateam.com for any further information you may require. Unfortunately, I do not have any screenshots to provide at this time. Thank you for your prompt attention to this matter.
+

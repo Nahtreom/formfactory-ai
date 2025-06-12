@@ -1,0 +1,8 @@
+[F13_1][Policy Number][402,681,1409,755]
+[F13_1][Policy Holder Name][1471,681,2477,755]
+[F13_1][Date of Service][402,989,1408,1064]
+[F13_1][Claim Amount][1471,990,2477,1064]
+[F13_1][Seiect service type][636,1098,1021,1143]
+[F13_1][Diagnosis/Condition][402,1257,2477,1389]
+[F13_1][Provider Nane][402,1584,1409,1658]
+[F13_1][Provider ID Number][1471,1584,1477,1658]

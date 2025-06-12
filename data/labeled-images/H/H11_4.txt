@@ -1,0 +1,6 @@
+[H11_4][Detailed Work Description][402,483,2477,700]
+[H11_4][Cost Breakdown][402,905,2477,978]
+[H11_4][Project Schedule][402,1076,2476,1151]
+[H11_4][Pefernces & Past Projects][402,1248,2477,1323]
+[H11_4][Contact Person][402,1526,1408,1601]
+[H11_4][Phone Number][1470,1526,2476,1601]

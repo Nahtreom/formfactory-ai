@@ -1,0 +1,6 @@
+[F13_3][Seiect service type][636,1098,1021,1143]
+[F13_3][Doctor Consultation][636,1148,1021,1193]
+[F13_3][Medical Procedure][636,1198,1021,1243]
+[F13_3][Prescription Medication][636,1248,1021,1293]
+[F13_3][Laboratory Tests][636,1298,1021,1343]
+[F13_3][Emergency Care][636,1348,1021,1393]

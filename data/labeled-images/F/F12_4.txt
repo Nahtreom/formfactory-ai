@@ -1,0 +1,6 @@
+[F12_4][Existingg Medical Conditions][402,586,2477,758]
+[F12_4][Current Medications][402,856,4277,1026]
+[F12_4][Select study type][720,1166,1108,1211]
+[F12_4][Select availability][163,1263,856,1307]
+[F12_4][Email Address][402,1527,1409,1601]
+[F12_4][Phone Number][1471,1527,2476,1601]

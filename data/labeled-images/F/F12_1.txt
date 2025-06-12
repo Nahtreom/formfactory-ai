@@ -1,0 +1,6 @@
+[F12_1][Full Name][402,603,1409,676]
+[F12_1][Age][1471,602]
+[F12_1][Existing Medical Conditions][402,911,2476,1081]
+[F12_1][urrent Medicationsd][402,1180,2476,1349]
+[F12_1][Select study type][718,1489,1109,1536]
+[F12_1][Select availability][563,1586,856,1631]

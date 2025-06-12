@@ -1,0 +1,8 @@
+[F11_1][Full Name][403,680,1053,755]
+[F11_1][Date of Birth][1114,680,1763,755]
+[F11_1][Medical Record Number][1826,680,2479,755]
+[F11_1][Name of Procedure][402,990,2476,1064]
+[F11_1][Surgeon/Physician Name][402,1161,2476,1235]
+[F11_1][l understand the nature of the procedure and its associated risks][402,1384,427,1409]
+[F11_1][l have had the opportunity to ask questions and they have been answered satisfactorily][402,1464,427,1489]
+[F11_1][l understand the alternatives to this procedure][402,1544,427,1570]

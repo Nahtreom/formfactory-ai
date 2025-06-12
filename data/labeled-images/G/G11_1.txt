@@ -1,0 +1,7 @@
+[G11_1][Party Name (Individual/Company)][402,681,1409,755]
+[G11_1][Select party type][1632,617,1924,662]
+[G11_1][Purpose of NDA][402,990,2477,1160]
+[G11_1][Effective Date][402,1258,1409,1331]
+[G11_1][Duration(Years)][1470,1258,2477,1332]
+[G11_1][Representative Name][402,1567,1409,1641]
+[G11_1][Title/Position][1470,1568,2477,1641]

@@ -1,0 +1,134 @@
+{% extends 'base.html' %}
+{% block title %}Startup Funding Application{% endblock %}
+
+{% block content %}
+<div class="container mt-4 mb-5">
+    <h1 class="text-center mb-4">Startup Funding Application</h1>
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <div class="card shadow">
+                <div class="card-body">
+                    <form method="POST" action="{{ url_for('startup_funding') }}" enctype="multipart/form-data">
+                        <!-- 公司信息 -->
+                        <div class="mb-4">
+                            <h3 class="text-success mb-3">Company Information</h3>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="company_name" class="form-label">Company Name</label>
+                                    <input type="text" class="form-control" id="company_name" name="company_name">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="company_website" class="form-label">Company Website</label>
+                                    <input type="url" class="form-control" id="company_website" name="company_website">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="founding_date" class="form-label">Founding Date</label>
+                                    <input type="date" class="form-control" id="founding_date" name="founding_date">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="business_stage" class="form-label">Business Stage</label>
+                                    <select class="form-select" id="business_stage" name="business_stage">
+                                        <option value="">Select Stage</option>
+                                        <option value="Idea">Idea</option>
+                                        <option value="MVP">MVP</option>
+                                        <option value="Early Revenue">Early Revenue</option>
+                                        <option value="Growth">Growth</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 创始人信息 -->
+                        <div class="mb-4">
+                            <h3 class="text-success mb-3">Founder Information</h3>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="founder_name" class="form-label">Founder Name</label>
+                                    <input type="text" class="form-control" id="founder_name" name="founder_name">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="founder_email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="founder_email" name="founder_email">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="founder_phone" class="form-label">Phone Number</label>
+                                    <input type="tel" class="form-control" id="founder_phone" name="founder_phone">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="linkedin_profile" class="form-label">LinkedIn Profile</label>
+                                    <input type="url" class="form-control" id="linkedin_profile" name="linkedin_profile">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 融资详情 -->
+                        <div class="mb-4">
+                            <h3 class="text-success mb-3">Funding Details</h3>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="funding_amount" class="form-label">Funding Amount Required (USD)</label>
+                                    <input type="number" class="form-control" id="funding_amount" name="funding_amount">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="equity_offered" class="form-label">Equity Offered (%)</label>
+                                    <input type="number" class="form-control" id="equity_offered" name="equity_offered" min="0" max="100">
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <label for="current_valuation" class="form-label">Current Company Valuation (USD)</label>
+                                    <input type="number" class="form-control" id="current_valuation" name="current_valuation">
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <label for="funding_purpose" class="form-label">Purpose of Funding</label>
+                                    <textarea class="form-control" id="funding_purpose" name="funding_purpose" rows="3"></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 业务概览 -->
+                        <div class="mb-4">
+                            <h3 class="text-success mb-3">Business Overview</h3>
+                            <div class="row">
+                                <div class="col-12 mb-3">
+                                    <label for="business_model" class="form-label">Business Model</label>
+                                    <textarea class="form-control" id="business_model" name="business_model" rows="3"></textarea>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <label for="target_market" class="form-label">Target Market</label>
+                                    <textarea class="form-control" id="target_market" name="target_market" rows="3"></textarea>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="current_revenue" class="form-label">Current Monthly Revenue (USD)</label>
+                                    <input type="number" class="form-control" id="current_revenue" name="current_revenue">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="team_size" class="form-label">Current Team Size</label>
+                                    <input type="number" class="form-control" id="team_size" name="team_size">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 附加信息 -->
+                        <div class="mb-4">
+                            <h3 class="text-success mb-3">Additional Information</h3>
+                            <div class="row">
+                                <div class="col-12 mb-3">
+                                    <label for="pitch_deck" class="form-label">Upload Pitch Deck (PDF)</label>
+                                    <input type="file" class="form-control" id="pitch_deck" name="pitch_deck" accept=".pdf">
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <label for="additional_comments" class="form-label">Additional Comments</label>
+                                    <textarea class="form-control" id="additional_comments" name="additional_comments" rows="3"></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-success btn-lg px-5">Submit Application</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

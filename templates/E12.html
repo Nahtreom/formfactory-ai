@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% block title %}Bank Account Opening{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Bank Account Opening Form</h1>
+    
+    <div class="card shadow">
+        <div class="card-body">
+            <form method="POST" id="accountOpeningForm">
+                <!-- Personal Details -->
+                <h4 class="mb-3">Personal Details</h4>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="fullName" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="fullName" name="fullName">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="dateOfBirth" class="form-label">Date of Birth</label>
+                        <input type="date" class="form-control" id="dateOfBirth" name="dateOfBirth">
+                    </div>
+                </div>
+
+                <!-- Account Type -->
+                <h4 class="mb-3 mt-4">Account Type</h4>
+                <div class="mb-3">
+                    <select class="form-select" id="accountType" name="accountType">
+                        <option value="">Select account type</option>
+                        <option value="savings">Savings Account</option>
+                        <option value="checking">Checking Account</option>
+                        <option value="business">Business Account</option>
+                        <option value="student">Student Account</option>
+                    </select>
+                </div>
+
+                <!-- Identification -->
+                <h4 class="mb-3 mt-4">Identification</h4>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="idType" class="form-label">ID Type</label>
+                        <select class="form-select" id="idType" name="idType">
+                            <option value="">Select ID type</option>
+                            <option value="passport">Passport</option>
+                            <option value="driverLicense">Driver's License</option>
+                            <option value="stateId">State ID</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="idNumber" class="form-label">ID Number</label>
+                        <input type="text" class="form-control" id="idNumber" name="idNumber">
+                    </div>
+                </div>
+
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-warning">Submit Application</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %} 

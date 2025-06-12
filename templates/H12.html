@@ -1,0 +1,105 @@
+{% extends 'base.html' %}
+{% block title %}Manufacturing Order Request{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Manufacturing Order Request Form</h1>
+    
+    <div class="card shadow">
+        <div class="card-body">
+            <form method="POST" id="manufacturingOrderForm">
+                <!-- Customer Information -->
+                <h4 class="mb-3">Customer Information</h4>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="companyName" class="form-label">Company Name</label>
+                        <input type="text" class="form-control" id="companyName" name="companyName" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="customerNumber" class="form-label">Customer Account Number</label>
+                        <input type="text" class="form-control" id="customerNumber" name="customerNumber" required>
+                    </div>
+                </div>
+
+                <!-- Order Details -->
+                <h4 class="mb-3 mt-4">Order Details</h4>
+                <div class="mb-3">
+                    <label for="productType" class="form-label">Product Type</label>
+                    <select class="form-select" id="productType" name="productType" required>
+                        <option value="">Select product type</option>
+                        <option value="custom">Custom Product</option>
+                        <option value="standard">Standard Product</option>
+                        <option value="modification">Product Modification</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="productDescription" class="form-label">Product Description</label>
+                    <textarea class="form-control" id="productDescription" name="productDescription" rows="3" required></textarea>
+                </div>
+
+                <!-- Specifications -->
+                <h4 class="mb-3 mt-4">Product Specifications</h4>
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <label for="quantity" class="form-label">Quantity</label>
+                        <input type="number" class="form-control" id="quantity" name="quantity" required min="1">
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="dimensions" class="form-label">Dimensions</label>
+                        <input type="text" class="form-control" id="dimensions" name="dimensions" placeholder="L x W x H">
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="material" class="form-label">Material</label>
+                        <input type="text" class="form-control" id="material" name="material">
+                    </div>
+                </div>
+
+                <!-- Technical Requirements -->
+                <h4 class="mb-3 mt-4">Technical Requirements</h4>
+                <div class="mb-3">
+                    <label for="specifications" class="form-label">Technical Specifications</label>
+                    <textarea class="form-control" id="specifications" name="specifications" rows="3"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="qualityStandards" class="form-label">Quality Standards</label>
+                    <input type="text" class="form-control" id="qualityStandards" name="qualityStandards">
+                </div>
+
+                <!-- Delivery Information -->
+                <h4 class="mb-3 mt-4">Delivery Information</h4>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="requiredDate" class="form-label">Required Delivery Date</label>
+                        <input type="date" class="form-control" id="requiredDate" name="requiredDate" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="shippingMethod" class="form-label">Preferred Shipping Method</label>
+                        <select class="form-select" id="shippingMethod" name="shippingMethod" required>
+                            <option value="">Select shipping method</option>
+                            <option value="ground">Ground</option>
+                            <option value="express">Express</option>
+                            <option value="air">Air Freight</option>
+                            <option value="sea">Sea Freight</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Supporting Documents -->
+                <h4 class="mb-3 mt-4">Supporting Documents</h4>
+                <div class="mb-3">
+                    <label for="drawings" class="form-label">Technical Drawings</label>
+                    <input type="file" class="form-control" id="drawings" name="drawings">
+                </div>
+                <div class="mb-3">
+                    <label for="additionalDocs" class="form-label">Additional Documentation</label>
+                    <input type="file" class="form-control" id="additionalDocs" name="additionalDocs" multiple>
+                </div>
+
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-dark">Submit Order Request</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %} 

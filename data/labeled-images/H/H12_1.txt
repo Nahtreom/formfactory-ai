@@ -1,0 +1,4 @@
+[H12_1][Company Name][402,680,1409,755]
+[H12_1][Customer Account Number][1471,680,2476,755]
+[H12_1][Select product type][604,926,950,971]
+[H12_1][Product Description][402,1085,2477,1256]

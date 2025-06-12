@@ -1,0 +1,298 @@
+1)Bug Report by John Williams
+
+Bug Title: App crashes when opening the settings menu
+
+Severity Level: High  
+Environment: Production  
+Browser/Platform: iOS 15.4, iPhone 12  
+
+Steps to Reproduce: 1.Open the app. 2.Tap on the settings icon. 3.App crashes immediately.  
+
+Expected Behavior: Settings menu should open without crashing.  
+Actual Behavior: App crashes immediately when settings menu is opened.  
+
+Attachments (Optional): None  
+
+Reported by: John Williams  
+Contact Information: john.williams87@gmail.com  
+
+This bug has been observed in the Production environment on an iPhone 12 running iOS 15.4. The issue is of High severity as it prevents users from accessing the settings menu, impacting user experience significantly. There are no attachments provided with this report. Immediate attention to this bug would be appreciated to ensure smooth functionality of the app.
+
+2)Bug Report:
+
+The issue titled "Text input field does not accept characters" has been identified as a Medium severity bug within the Development environment. The problem specifically affects users on Chrome 96.0, Windows 10. To reproduce the issue, follow these steps: 1.Go to the login page. 2. Try to type in the username field. (3)Characters do not appear. The expected behavior is that the text input field should accept characters. However, the actual behavior observed is that no characters appear when typing in the input field. Currently, there are no attachments provided with this report. This report has been submitted by Sarah Lee, and she can be contacted at sarah.lee28@hotmail.com for any further details or follow-up regarding this bug.
+
+3) Bug Report: "Navigation bar disappears after scrolling"
+
+In the Testing environment on Safari 14.1 running on macOS Big Sur, a bug has been identified with a Medium severity level. The issue is detailed as follows: upon opening the app and scrolling down on the homepage, the navigation bar disappears. The exact Steps to Reproduce this issue are: 1. Open the app. 2.Scroll down on the homepage. 3. The navigation bar disappears. The Expected Behavior is that the navigation bar should remain visible while scrolling. However, the Actual Behavior observed is that the navigation bar disappears after scrolling. There are no attachments provided. This report was submitted by Emily Zhang, who can be contacted at emily.zhang96@icloud.com for further clarification or follow-up regarding the issue.
+
+4) Bug Report: "Images fail to load in gallery view"
+
+In the "Production" environment on "Firefox 92.0, Windows 11", I encountered a significant issue when attempting to load images on the gallery page. This problem has been classified with a "High" severity level. To reproduce the issue, follow these steps: "1. Go to the gallery page. 2. Try to load images. 3. Images fail to load or display as broken links." The "Expected Behavior" is that "images should load correctly in gallery view." However, the "Actual Behavior" observed is that "images do not load and show as broken links." There are currently no attachments provided for this report. For further information or follow-up, please contact me, Michael Scott, at michael.scott@papercompany.com.
+
+5) Bug Report: An issue has been identified in the Production environment with a Severity Level of Critical, as detailed in the Bug Title: "Error message appears on checkout page." The issue occurs on the Chrome 96.0 browser platform running on Windows 10. According to the Steps to Reproduce, the problem arises when the user executes the following actions: "1. Add items to cart. 2. Proceed to checkout. 3. An error message appears during payment." The Expected Behavior is that "Checkout process should proceed without errors." However, the Actual Behavior observed is that "Error message appears during payment and prevents checkout." Currently, there are no attachments provided to further illustrate the issue. To address this critical bug, please contact David Johnson at david.johnson45@gmail.com for further information or clarification regarding this report.
+
+6) Bug Report: Olivia Brown has reported an issue with the dropdown menu functionality under the Bug Title "Dropdown menu not responsive on mobile devices". The severity level of this issue is categorized as "Medium". The problem was identified within the Development environment, specifically on an iOS 14 platform using an iPhone SE. To replicate the problem, the following steps should be followed: "1. Open the website on mobile. 2. Try to click on the dropdown menu. 3. The dropdown menu does not respond." For clarification, the Expected Behavior is that the "Dropdown menu should be clickable and functional on mobile devices.", whereas the Actual Behavior observed is that the "Dropdown menu is unresponsive on mobile devices." Currently, there are no attachments provided with this report. Should there be any need for further details, please contact Olivia Brown at her provided email, olivia.brown@outlook.com.
+
+7) Bug Report: "User profile picture upload fails"
+
+A bug with a high severity level has been identified in the testing environment using Edge 95.0 on Windows 10. The issue occurs when trying to upload a user profile picture. The specific steps to reproduce this problem are as follows: 1. Go to the user profile page. 2. Click 'Upload Picture'. 3. Upload a profile picture. 4. The image fails to upload. The expected behavior in this scenario is that the profile picture should upload successfully. However, the actual behavior observed is that the profile picture fails to upload, and no error message appears. There are no attachments provided for this report. For further information or clarification, please contact me, Ryan Taylor, at ryan.taylor88@yahoo.com.
+
+8) Bug Report Summary: "Slow loading time on search results page"
+
+Severity Level: The issue observed is classified as a "Medium" severity level due to its impact on user experience, particularly affecting performance timings.
+
+Environment Details: The problem is taking place in the "Production" environment, specifically observed on "Chrome 96.0, Windows 7," which is crucial for replicating and diagnosing the issue accurately.
+
+Steps to Reproduce: The issue can be reproduced consistently by following these steps: "1. Go to the search page. 2. Enter a search term. 3. The search results page takes several seconds to load." These steps are critical for the development team to reproduce the problem reliably and offer a potential solution.
+
+Expected Behavior: As per the system's design expectations, "Search results should load quickly." This benchmark is essential to meet user efficiency and website performance standards.
+
+Actual Behavior: Currently, the system exhibits delayed performance, where "Search results take a long time to load, causing delays." This deviation from expected behavior indicates a need for performance optimization.
+
+Attachments (Optional): "None"
+
+Reported By: The issue was initially reported by "Daniel Harris," who can be reached for further information or clarification at "daniel.harris92@gmail.com."
+
+Please address this issue to improve user satisfaction and productivity.
+
+9) Bug Report submitted by Sophia Green (sophia.green22@mac.com) on the "Text formatting issue in the blog editor," with a Severity Level noted as Low, was encountered in the Development environment while using Safari 14.1 on macOS Big Sur. To reproduce this issue, follow these Steps to Reproduce: 1. Open the blog editor. 2. Try to change the text color. 3. Text does not change color properly. The Expected Behavior is that the text color should change according to selection. However, the Actual Behavior observed is that the text does not change color when selected. There are no Attachments (Optional) provided with this report.
+
+10) Bug Report: "Page layout breaks on smaller screens"
+
+James Wilson has identified a "Low" severity bug in the "Production" environment while using "Chrome 95.0" on "Android 10". The issue arises when the webpage is accessed on a smaller screen, specifically a mobile device. To replicate the problem, follow these "Steps to Reproduce": "1. Open the website on a mobile device. 2. Navigate to the homepage. 3. The page layout breaks and becomes unreadable." The "Expected Behavior" is that the "Page layout should be responsive and readable on all screen sizes." However, the "Actual Behavior" observed is that the "Page layout breaks on smaller screens, making content difficult to read." Unfortunately, there are no "Attachments (Optional)" provided. For further information, please contact James Wilson at "james.wilson89@gmail.com".
+
+11) Bug Report: "Submit button does not work on the contact form"
+
+A high-severity issue has been identified in the production environment impacting the contact form functionality. When accessed on Firefox 93.0 on macOS Monterey, the submit button fails to operate as intended. The precise "Steps to Reproduce" this issue are as follows: 1. Open the contact form. 2. Fill in all fields. 3. Click the submit button. 4. Nothing happens. The "Expected Behavior" for this form is for the Submit button to submit the form successfully. However, the "Actual Behavior" is that the Submit button does not trigger any action. No attachments are provided for this report. This bug was reported by Jessica Adams, whose contact email is jessica.adams99@gmail.com. Immediate attention to resolve this issue is recommended, given its high severity level.
+
+12) Bug Title: Audio not playing on video page
+
+A critical bug has been identified in the Production environment on the Safari 14.1 browser and iOS 15 platform. The issue was reported by Michael Brown, who can be reached at michael.brown@outlook.com. The problem involves a discrepancy between the expected and actual behavior of video playback on the video page. The Steps to Reproduce this issue are as follows: 1. Open the video page. 2. Play any video. 3. The video plays, but there is no audio. The Expected Behavior is that the video should play with audio. However, the Actual Behavior observed is that the video plays, but audio is silent. There are no attachments provided for this bug report.
+
+13) Bug Title: "Image carousel not working on homepage"
+
+A bug has been observed with the image carousel on the homepage, categorized under a Severity Level of Medium. This issue was identified in the Testing environment while using the Edge 95.0 browser on the Windows 8 platform. The specific Steps to Reproduce the issue are as follows: 1. Go to the homepage. 2. Try to navigate the image carousel. 3. Carousel does not move or change images. The Expected Behavior is that the image carousel should be functional and allow users to navigate between images. However, the Actual Behavior observed is that the image carousel does not respond to user input. No additional Attachments (Optional) have been provided for further reference. This report is submitted by Liam Turner, who can be contacted via email at liam.turner71@gmail.com for any further information required.
+
+14) The bug report titled "Password reset link not working" has been submitted by Sophia Miller (sophia.miller23@yahoo.com) and is categorized as having a Severity Level of "Critical". This issue was encountered in the "Production" environment while using "Chrome 96.0" on "Windows 10". The problem arises when performing the following Steps to Reproduce: "1. Go to the password reset page. 2. Enter email and submit request. 3. No email is received." The Expected Behavior in this scenario is that a "Password reset email should be sent to the user." However, the Actual Behavior observed is that a "Password reset email is not sent." No attachments were included with this report. It is crucial to address this issue promptly due to its severity level and impact on user experience.
+
+15) Bug Report: The issue at hand is titled "Pop-up notification not disappearing after action". It has been categorized with a "Medium" severity level, indicating a noticeable impact on functionality but not a critical failure. The problem occurs within the "Testing" environment and has been reproduced on "Firefox 92.0, Ubuntu 20.04". The steps to reproduce the issue are straightforward: "1. Trigger a pop-up notification. 2. Perform the action to dismiss it. 3. The notification stays on the screen." The expected behavior is clear, as outlined in the form: "Pop-up notification should disappear after the action is completed." However, contrary to this, the actual behavior observed is that the "Pop-up notification remains on the screen after the action." There are no attachments provided to support this report. This bug report is submitted by Ethan Davis, who can be reached at "ethan.davis@aol.com" for further information or clarification.
+
+16) Bug Title: Error loading user profile page. The severity level of this issue is High, and it occurs in the Production environment. The problem was encountered while using Safari 14.1 on macOS Catalina. The Steps to Reproduce the issue are as follows: 1. Login to the account. 2. Go to the profile page. 3. The page fails to load, showing an error message. The Expected Behavior is that the user profile page should load successfully. However, the Actual Behavior is that an error message appears, and the profile page does not load. There are no attachments to accompany this report. The report was submitted by Olivia White, and she can be contacted via email at olivia.white78@gmail.com for further information.
+
+17) Bug Report - "Search bar not functioning after update"
+
+A bug has been identified with a severity level of Medium in the Production environment. The issue occurs on Chrome 97.0 running on Windows 11. The Steps to Reproduce the problem are as follows: 1. Open the search page. 2. Try entering a search query. 3. Search bar does not register input. The Expected Behavior is that the search bar should accept input and show relevant results. However, the Actual Behavior observed is that the search bar does not register text input. There are no Attachments (Optional) provided with this report. Please note that this bug report has been submitted by Ava Smith, and any follow-up communications can be directed to her email at ava.smith56@gmail.com.
+
+18) Bug Report - Page layout is distorted on mobile devices  
+Charlotte Green, from the Development environment team, reported an issue with a Severity Level of Low. The bug occurs on the Browser/Platform "Android 10, Chrome 95.0". The specific Steps to Reproduce this issue are as follows: 1. Open the website on a mobile device. 2. The page layout is misaligned, causing content to be unreadable. The Expected Behavior is that the page layout should be responsive and readable on mobile devices. However, the Actual Behavior observed is that the page layout distorts, and content overlaps or is hidden. No attachments were provided with the report. Should any further information be required, Charlotte Green can be contacted at charlotte.green33@gmail.com.
+
+19) **Bug Report: Video player controls missing on fullscreen mode**
+
+Reporter: Benjamin Clark  
+Email: benjamin.clark@icloud.com  
+
+In the production environment on Firefox 94.0, macOS Big Sur, a user has reported an issue with the video player's functionality. The bug, labeled as "Video player controls missing on fullscreen mode," has been assessed with a severity level of Low. The problem occurs under the following sequence: (1) Open the video page. (2) Click on the fullscreen button. (3) Video controls are no longer visible in fullscreen mode. The expected behavior for this functionality is that video controls should remain visible when in fullscreen mode. However, the actual behavior observed is that video controls disappear when the video is in fullscreen mode. There are no attachments provided with this report. Please make necessary arrangements to investigate and address this issue.
+
+20) Bug Report: "Form validation error not showing"
+
+Severity Level: High.  
+Environment: Testing.  
+Browser/Platform: Safari 15, iPhone 13.  
+
+Isabella Turner reported an issue where the contact form validation is not functioning correctly. The steps to reproduce the issue are as follows: 1. Open the contact form. 2. Leave a required field blank and submit. 3. No validation error appears. The expected behavior is that the form should show a validation error if a required field is left blank. However, the actual behavior observed is that no validation error appears, and the form is submitted incorrectly. There are no attachments included with this report. For follow-up, you may contact Isabella Turner via email at isabella.turner99@outlook.com.
+
+21) Bug Title: Pop-up modal freezes after clicking close button
+
+In the Production environment, using Chrome 95.0 on macOS Mojave, a severe issue was identified concerning the pop-up modal functionality. The bug, documented by Henry Rodriguez (email: henry.rodriguez42@gmail.com), presents a High severity level, demanding immediate attention. Steps to Reproduce: 1. Open the website. 2. Click on any pop-up modal. 3. Click the close button. 4. The modal freezes and does not close. The Expected Behavior is that the pop-up modal should close when the close button is clicked. However, the Actual Behavior experienced is that the pop-up modal freezes and does not close. There are no attachments provided with this report. It is crucial that this issue be resolved promptly to ensure seamless user experience.
+
+22) Bug Report: User login fails after password change
+
+Severity Level: Critical
+
+Environment: Production
+
+Browser/Platform: Safari 14.0, macOS Big Sur
+
+Report: During testing, it was identified that the User login fails after password change. The issue was observed in the Production environment using Safari 14.0 on macOS Big Sur. The steps to reproduce the issue are as follows: 1. Change your password. 2. Try to log in with the new password. 3. Login fails. The Expected Behavior was that the user should be able to log in with the new password; however, the Actual Behavior observed was that the login fails even after changing the password successfully. There are no attachments included with this report. If you require further information, please contact Sophia Roberts at sophia.roberts87@icloud.com.
+
+23) Bug Report: The issue titled "Broken link in footer section" has been identified with a severity level of "Medium" and occurs in the "Production" environment. This bug is specifically found on "Firefox 94.0, Windows 10". The "Steps to Reproduce" the issue are as follows: 1. Scroll down to the footer section. 2. Click on any of the links in the footer. 3. The link redirects to a 404 error page. The "Expected Behavior" is that footer links should lead to valid pages. However, the "Actual Behavior" observed is that footer links lead to 404 error pages. There are no attachments provided in this report. This report was submitted by Liam Walker, who can be contacted via email at liam.walker56@yahoo.com.
+
+24) Bug Report: Text alignment issue in product description
+
+Submitted by: Ella Williams (ella.williams21@outlook.com)
+
+Severity Level: Low  
+Environment: Development  
+Browser/Platform: Edge 95.0, Windows 11
+
+In the process of developing our product page, an issue has been identified under the Bug Title "Text alignment issue in product description." During the course of testing in the specified Environment with the Browser/Platform configuration Edge 95.0, Windows 11, a misalignment in the product description text was observed. The Steps to Reproduce this issue are as follows: 1. Go to the product page. 2. Look at the product description. 3. Text is misaligned. The Expected Behavior is that the text should be aligned properly in the product description. However, the Actual Behavior observed is that the text is misaligned and looks uneven. No Attachments were provided in conjunction with this bug report. This issue should be addressed to ensure a consistent and professional appearance of product descriptions across our site.
+
+25) Bug Report:
+
+Bug Title: "Date picker widget does not show calendar"
+
+The issue has been observed in a Testing environment on Chrome 96.0, Linux Ubuntu. The Severity Level of the issue is classified as Medium. To reproduce the issue, follow these Steps to Reproduce: 1. Open the form with the date picker. 2. Click on the date input field. 3. The calendar widget does not appear. The Expected Behavior is that the calendar widget should appear when clicking the date input field. However, the Actual Behavior is that the Date picker widget does not display. There are no attachments included with this report. For further information or follow-up, please contact me, Charlotte Green, at charlotte.green@live.com.
+
+26) Bug Report: The "App's notification system fails to update" issue has been identified with a Severity Level of High. This issue occurs in the Production Environment on iOS 15.1, specifically on the iPhone 13 Pro. The problem can be consistently reproduced by following these Steps to Reproduce: 1. Enable notifications for the app. 2. Receive a notification. 3. The notification status does not update after being read. The Expected Behavior is that the notification status should change after it is read. However, the Actual Behavior observed is that the notification status does not update, showing as unread. There are no attachments provided to supplement this report. For further questions or clarifications, please contact John Clark at john.clark65@gmail.com.
+
+27) Bug Report: "Button not clickable in modal window"
+
+During testing in the Development environment on Safari 13, iOS 14, I encountered an issue labeled "Button not clickable in modal window" with a Severity Level of Medium. The problem is observed when attempting to interact with the modal window interface. The specific Steps to Reproduce are as follows: 1. Open the modal window. 2. Try to click the 'Submit' button. 3. The button does not respond. The Expected Behavior is that the 'Submit' button should be clickable and trigger an action. However, the Actual Behavior observed is that the 'Submit' button is not clickable. No attachments are included for this bug report. For further follow-up, you can contact me, William Harris, at william.harris99@aol.com.
+
+28) Bug Report: "Mobile menu does not open on tap"
+
+Reported by Mia Thompson on the Testing environment, using Chrome 95.0 on an Android 11 device, this bug has been identified with a Severity Level: Medium. The issue arises when attempting the following Steps to Reproduce: 1. Open the website on a mobile device. 2. Tap the hamburger menu icon. 3. Mobile menu does not open. The Expected Behavior is that the Mobile menu should open when tapping the menu icon. However, the Actual Behavior observed is that the Mobile menu does not respond to taps. No attachments were provided for this report. For further correspondence, Mia Thompson can be reached at mia.thompson88@outlook.com.
+
+29) Bug Report: Icons not displaying on dashboard
+
+A bug with the title "Icons not displaying on dashboard" has been identified with a severity level classified as Low. This issue has been observed in the Production environment while using Firefox 93.0 on macOS Mojave. The steps to reproduce this bug are as follows: 1. Open the dashboard. 2. Check the icons in the menu bar. 3. Icons are not visible. The expected behavior is that icons should display properly on the dashboard. However, the actual behavior is that icons are missing or invisible in the menu bar. There are no attachments to this report. For further inquiries or clarification, please contact Aiden White at aiden.white45@gmail.com.
+
+30) Bug Report:
+
+The issue titled "Scroll bar disappears when resizing window" has been identified with a severity level of Medium in the Production environment. This bug occurs specifically on Edge 94.0 running on Windows 7. To recreate the issue, follow these steps precisely: 1. Open the website. 2. Resize the window. 3. The scroll bar disappears when the window is resized. The expected behavior is that the scroll bar should remain visible after resizing the window; however, the actual behavior observed is that the scroll bar disappears when resizing the window. There are no attachments provided with this report. For any further inquiries or follow-up, please contact me, Lucas Martinez, at lucas.martinez@outlook.com.
+
+31) Bug Title: "Pagination does not work on product list"  
+Severity Level: High  
+Environment: Production  
+Browser/Platform: Chrome 97.0, Windows 10  
+
+In the Production environment, using Chrome 97.0 on Windows 10, the "Pagination does not work on product list" bug was encountered. Steps to Reproduce: "1. Go to the product list page. 2. Click on the next page button. 3. No products load on the next page." The Expected Behavior is that the "Next page should load the products correctly." However, the Actual Behavior observed is that the "Pagination does not load the next page, staying on the current page." There are no attachments with this report. This issue was reported by Ethan King, and he can be contacted via email at ethan.king57@gmail.com for any further information.
+
+32) Bug Report: Font size changes unexpectedly after page load
+
+The issue was discovered in the Testing environment while using Safari 14.0 on macOS Sierra. The bug, titled "Font size changes unexpectedly after page load," is classified with a Severity Level of Medium. To reproduce the issue, follow these steps: 1. Open the homepage. 2. Wait for the page to fully load. 3. Font size changes for the main text. The Expected Behavior is that the font size should remain consistent throughout the page load. However, the Actual Behavior observed is that the font size changes unexpectedly after the page finishes loading. There are no attachments included for this report. The report was submitted by Ava Brown, who can be contacted at ava.brown31@icloud.com for further clarification or follow-up.
+
+33) Bug Report - "Search functionality returns incorrect results"
+
+Submitted by Jack Davis via jack.davis23@yahoo.com, this bug report, with a Severity Level of High, pertains to the search feature on the Production environment. The issue has been reproduced on Firefox 92.0 running on Linux Ubuntu. To replicate the problem, use the following Steps to Reproduce: 1. Use the search bar. 2. Type in a relevant keyword. 3. Results are unrelated to the search term. The Expected Behavior is that search results should match the search keyword. However, the Actual Behavior observed is that search results return irrelevant items that do not match the search term. There are no additional attachments provided.
+
+34) Bug Report: "Login form freezes on submit"
+
+A critical issue has been identified in the Production environment where the login form fails to function as expected on the browser/platform: Chrome 96.0, macOS Big Sur. The bug, titled "Login form freezes on submit," occurs under the following steps: 1. Open the login page. 2. Enter valid login credentials. 3. Click the submit button. 4. The page freezes after clicking submit. Under normal circumstances, the Expected Behavior is that the login should submit and direct to the user's account page. However, the Actual Behavior observed is that the page freezes after submitting the login form. No attachments are provided to accompany this report. This issue has been reported by Sophia Walker, who can be contacted via email at sophia.walker@outlook.com.
+
+35) Bug Title: "Checkout page not updating order summary"
+
+A bug with a Severity Level of "High" has been identified in the "Production" environment while using "Edge 95.0, Windows 8". The issue is related to the order summary feature on the checkout page. The Steps to Reproduce this bug are as follows: "1. Add an item to the cart. 2. Go to the checkout page. 3. The order summary does not update with the item added." The Expected Behavior is that the "Order summary should reflect the added item." However, the Actual Behavior observed is that the "Order summary does not update after adding items to the cart." There are no Attachments (Optional) provided with this report. If further clarification is needed, please contact Liam Smith at liam.smith99@live.com. 
+
+36) Bug Report: The issue identified is titled "Product image zoom feature broken" and has been classified with a severity level of Medium. The occurrence took place in the Testing environment on the browser/platform combination of Safari 13.1, macOS Mojave. The outlined Steps to Reproduce the bug are as follows: 1. Open the product page. 2. Click on the zoom feature for product images. 3. Zoom functionality does not work. The Expected Behavior is that the product image should zoom in when clicked. However, the Actual Behavior observed is that the zoom feature does not activate on product images. There are no attachments provided for this report. This bug was reported by Olivia Johnson, who can be reached at olivia.johnson54@icloud.com for further information.
+
+37) Bug Report: The issue titled "Social media icons not linking to correct profiles" has been identified with a Severity Level of Medium. This issue is observed in the Environment labeled Production, specifically under the Browser/Platform combination of Chrome 94.0 and Windows 7. The Steps to Reproduce this issue are as follows: 1. Go to the website. 2. Click on any social media icon. 3. The icon redirects to an incorrect or non-existent profile. The Expected Behavior for this functionality is that each social media icon should link to the correct profile. However, the Actual Behavior diverges from this expectation as social media icons link to incorrect or non-functional profiles. There are no attachments provided for this report. This report has been submitted by Emily Davis, who can be contacted via email at emily.davis90@outlook.com.
+
+38) Bug Title: "App icon does not display correctly on home screen"
+
+A bug was identified with the app icon display on the home screen. The issue is categorized as having a Severity Level of "Low" and was encountered in the "Testing" environment on an "Android 11, Samsung Galaxy S21" platform. The Steps to Reproduce the issue are as follows: "1. Install the app. 2. Add the app icon to the home screen. 3. The app icon displays as a blank square." The Expected Behavior in this scenario is that "App icon should display correctly on the home screen." However, the Actual Behavior observed is that the "App icon shows as a blank square on the home screen." There are no Attachments (Optional) provided with this report. Should there be a need for further information, please contact the reporter, James Taylor, at the email address james.taylor87@gmail.com.
+
+39) Bug Report: Audio playback issues in mobile app
+
+Title: Audio playback issues in mobile app
+
+Severity Level: Medium
+
+Environment: Production
+
+The issue has been observed on the following Browser/Platform: iOS 14, iPhone 11. To reproduce the issue, follow these Steps to Reproduce: 1. Open the app. 2. Play an audio file. 3. Audio stutters and cuts off unexpectedly. The Expected Behavior is that audio should play smoothly without interruptions. However, the Actual Behavior is that audio stutters and sometimes cuts off mid-playback. There are no additional Attachments provided. This report was submitted by Isabella Martinez, and she can be contacted via email at isabella.martinez@icloud.com.
+
+40) Bug Report: "User profile picture not updating"
+
+Severity Level: Medium
+
+Environment: Development
+
+Browser/Platform: Firefox 93.0, Windows 10
+
+Reported by: Benjamin Lee (benjamin.lee76@outlook.com)
+
+Description: During testing in the Development environment, I encountered an issue on Firefox 93.0 running on Windows 10, where the user profile picture fails to update. The problem persists despite following the standard procedure to change it. 
+
+Steps to Reproduce: 
+1. Go to the user profile page.
+2. Upload a new profile picture.
+3. The picture does not update after upload.
+
+Expected Behavior: Profile picture should update after upload.
+
+Actual Behavior: New profile picture is not displayed after upload.
+
+This issue is not accompanied by any additional screenshots or logs, as no Attachments (Optional) were provided. The unexpected absence of an updated profile image may hinder the user's ability to personalize their account correctly. Swift resolution of this bug is advised to enhance user experience.
+
+41) Bug Report: "Page title not updating after navigation"
+
+During testing on the "Testing" environment using "Chrome 97.0, macOS Monterey," a bug with a "Medium" severity level was identified. The issue is encapsulated under the Bug Title: "Page title not updating after navigation." The problem becomes apparent through the following Steps to Reproduce: "1. Open the website. 2. Navigate to a different page. 3. The page title does not update after navigation." Under normal circumstances, the Expected Behavior is that the "Page title should update when navigating to a new page." However, the Actual Behavior observed is that the "Page title remains the same after navigation." There are no attachments provided for this report. For follow-up or additional queries, please contact Isabella Clark at "isabella.clark@icloud.com."
+
+42) Bug Report: "Slider control not functioning on homepage"
+
+A bug has been identified with the "Slider control not functioning on homepage". The severity level of this issue is classified as "High" and it occurs in the "Production" environment. The issue specifically arises when using "Safari 14.0" on "iOS 14". The steps to reproduce the problem are as follows: "1. Go to the homepage. 2. Try using the slider control to view different sections. 3. Slider does not move." The expected behavior is that the "Slider should allow users to view different sections." However, the actual behavior observed is that the "Slider control is unresponsive and does not move." There are no attachments included with this report. For further information or updates regarding this issue, please contact "Mason Lewis" at "mason.lewis89@gmail.com".
+
+43) Bug Report Title: "Dropdown menu disappears too quickly"
+
+Severity Level: Medium  
+Environment: Testing  
+Browser/Platform: Edge 96.0, Windows 10  
+
+Detailed Report: In the Testing environment on Edge 96.0 using Windows 10, I encountered an issue with the dropdown menu functionality. According to the Steps to Reproduce, the sequence is as follows: 1. Hover over the dropdown menu. 2. The menu appears for a split second, then disappears immediately. The Expected Behavior is that the dropdown menu should remain open until the user clicks or moves away. However, the Actual Behavior observed is that the dropdown menu disappears too quickly, making it difficult to select items. There are no attachments provided with this report. 
+
+For further details or follow-up, please contact me at My Name: Lily Evans, Email: lily.evans22@outlook.com.
+
+44) Bug Report: Page not responsive on iPad
+
+A bug has been identified with a Severity Level of Low in the Development environment on Safari 13.0 using an iPad Pro. The issue is detailed in the Bug Title: "Page not responsive on iPad." To reproduce this issue, follow these Steps to Reproduce: "1. Open the website on an iPad. 2. Page does not scale correctly for mobile view." The Expected Behavior is that "Page should be responsive and adapt to the iPad screen size." However, the Actual Behavior observed is that the "Page content is too large and does not scale properly for iPad screen." There are no Attachments (Optional) provided for this report. This bug report was submitted by Elijah Carter, who can be reached at elijah.carter44@gmail.com for any further information or clarification regarding this issue.
+
+45) Bug Title: "Cart item quantity not updating"
+
+Severity Level: High
+
+Environment: Production
+
+In the Chrome 94.0 browser on Windows 11, an issue has been identified with the cart functionality. The bug is documented under the Bug Title "Cart item quantity not updating". The Severity Level of this issue is classified as High, occurring in the Production environment.
+
+Steps to Reproduce: To reproduce the issue, follow these steps: 1. Add items to the cart. 2. Change the quantity of an item in the cart. 3. The quantity does not update.
+
+Expected Behavior: Cart should update the item quantity accordingly.
+
+Actual Behavior: Item quantity in the cart does not change.
+
+Attachments (Optional): None
+
+To address the issue, please refer to the browser and platform details which specify that the bug occurs on Chrome 94.0, Windows 11. This issue was reported by Grace Wilson, and for any further clarification, she can be contacted at grace.wilson@aol.com.
+
+46) The bug report titled "User settings page loading extremely slowly" was submitted by Henry Scott, who can be reached at henry.scott66@gmail.com. The issue is categorized with a "Medium" severity level and has been identified in the "Production" environment. It specifically affects users on "Firefox 93.0, macOS Sierra". When following the outlined "Steps to Reproduce", users experience: "1. Open the user settings page. 2. The page takes an unusually long time to load." Contrary to the "Expected Behavior" that "User settings page should load within a reasonable amount of time.", the "Actual Behavior" observed is that the "User settings page takes more than 10 seconds to load." There are no attachments included in this report.
+
+47) Bug Report: The issue titled "Email confirmation not being sent after registration" has been identified as Critical, occurring in the Production environment. On the Browser/Platform specified as "Chrome 95.0, Windows 8", the bug presents significant user disruption. To replicate the issue, follow these Steps to Reproduce: 1. Register a new account. 2. Expect an email confirmation. 3. No email confirmation is sent. The Expected Behavior is that an email confirmation should be sent after registration. However, the Actual Behavior observed is that the email confirmation is not being sent to the registered email address. There are no Attachments (Optional) provided. For further communication, please contact Samuel Jackson at samuel.jackson89@outlook.com.
+
+48) **Bug Report**
+
+**Bug Title:** Video playback controls missing in embedded player
+
+**Severity Level:** Medium
+
+**Environment:** Development
+
+**Browser/Platform:** Safari 15.0, macOS Catalina
+
+In the current development environment, there is an issue with the video playback controls in the embedded player. This issue is occurring specifically on Safari 15.0 running on macOS Catalina. The **Steps to Reproduce** the issue are as follows: 1. Open a page with an embedded video. 2. Try to interact with video controls. 3. Video controls are missing. The **Expected Behavior** is that video controls should be visible and functional. However, the **Actual Behavior** observed is that video controls are missing, preventing interaction with the video. 
+
+No attachments are included with this report. For further inquiries or additional information, please contact Amelia Taylor at amelia.taylor52@gmail.com.
+
+49) Bug Report - High Severity
+
+Title: User cannot change password from account settings  
+Environment: Production  
+Browser/Platform: Chrome 97.0, macOS Monterey  
+
+Description: A critical bug has been encountered in the production environment within the account settings feature. The issue is present when users attempt to change their password. Despite following the correct procedure, the form fails to submit, preventing any password updates. The problem was identified using Chrome 97.0 on macOS Monterey. 
+
+Steps to Reproduce:  
+1. Go to account settings.  
+2. Try changing the password.  
+3. The password change form does not submit.  
+
+Expected Behavior: Password change form should submit and update the password successfully.  
+Actual Behavior: Password change form does not submit, and the password is not updated.  
+
+No attachments are available for this report. This issue has been submitted by Jackson Lewis, who can be reached at jackson.lewis@gmail.com for further clarification or additional information. It is imperative that this issue is addressed promptly, considering its high severity level, to ensure users can update their account information as expected.
+
+50) Bug Report: Breadcrumb navigation not visible on product pages
+
+Submitted by Zoe Anderson, this report details an issue observed in the Production environment, specifically using Edge 94.0 on Windows 10. According to the Bug Title, "Breadcrumb navigation not visible on product pages," this issue presents a navigational challenge categorized under a Low severity level. In order to comprehend the flaw thoroughly, it is vital to follow these Steps to Reproduce: 1. Go to a product page. 2. Breadcrumb navigation is not displayed at the top of the page. The Expected Behavior indicates that "Breadcrumb navigation should be visible on product pages." However, the Actual Behavior observed is that "Breadcrumb navigation is missing from product pages." No attachments are provided in this submission. For further correspondence, Zoe Anderson can be reached at zoe.anderson56@outlook.com.
+

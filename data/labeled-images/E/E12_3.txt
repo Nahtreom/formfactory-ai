@@ -1,0 +1,5 @@
+[E12_3][Select account type][402,927,736,971]
+[E12_3][Savings Account][402,977,736,1021]
+[E12_3][Checking Account][402,1027,736,1071]
+[E12_3][Business Account][402,1077,736,1121]
+[E12_3][Student Account][402,1127,736,1171]

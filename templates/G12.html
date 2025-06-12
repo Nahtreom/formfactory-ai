@@ -1,0 +1,84 @@
+{% extends 'base.html' %}
+{% block title %}Background Check Authorization{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Employment Background Check Authorization</h1>
+    
+    <div class="card shadow">
+        <div class="card-body">
+            <form method="POST" id="backgroundCheckForm">
+                <!-- Personal Information -->
+                <h4 class="mb-3">Personal Information</h4>
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <label for="firstName" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="middleName" class="form-label">Middle Name</label>
+                        <input type="text" class="form-control" id="middleName" name="middleName">
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="lastName" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="lastName" name="lastName" required>
+                    </div>
+                </div>
+
+                <!-- Additional Personal Details -->
+                <h4 class="mb-3 mt-4">Additional Details</h4>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="ssn" class="form-label">Social Security Number</label>
+                        <input type="password" class="form-control" id="ssn" name="ssn" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="dob" class="form-label">Date of Birth</label>
+                        <input type="date" class="form-control" id="dob" name="dob" required>
+                    </div>
+                </div>
+
+                <!-- Address History -->
+                <h4 class="mb-3 mt-4">Current Address</h4>
+                <div class="mb-3">
+                    <label for="streetAddress" class="form-label">Street Address</label>
+                    <input type="text" class="form-control" id="streetAddress" name="streetAddress" required>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <label for="city" class="form-label">City</label>
+                        <input type="text" class="form-control" id="city" name="city" required>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="state" class="form-label">State</label>
+                        <input type="text" class="form-control" id="state" name="state" required>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="zipCode" class="form-label">ZIP Code</label>
+                        <input type="text" class="form-control" id="zipCode" name="zipCode" required>
+                    </div>
+                </div>
+
+                <!-- Authorization -->
+                <h4 class="mb-3 mt-4">Authorization</h4>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="authorization" name="authorization" required>
+                    <label class="form-check-label" for="authorization">
+                        I authorize the complete background check and verify that all provided information is accurate
+                    </label>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="truthfulness" name="truthfulness" required>
+                    <label class="form-check-label" for="truthfulness">
+                        I understand that providing false information may result in rejection of my application
+                    </label>
+                </div>
+
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-secondary">Submit Authorization</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %} 

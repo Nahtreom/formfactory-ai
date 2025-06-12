@@ -1,0 +1,8 @@
+[F13_4][Date of Service][402,484,1409,558]
+[F13_4][Claim Amount][1471,484,2477,558]
+[F13_4][Select service type][636,593,1021,637]
+[F13_4][Diaggnosis/Condition][402,752,2477,874]
+[F13_4][Provider Name][402,1078,1408,1151]
+[F13_4][Provider ID Number][1470,1077,2477,1151]
+[F13_4][Medical Bills][402,1386,2477,1461]
+[F13_4][Prescriptions/Medical Reports][402,1559,2477,1632]

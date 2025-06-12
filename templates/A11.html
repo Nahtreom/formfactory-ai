@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block title %}Job Application Form{% endblock %}
+{% block content %}
+<h1 class="mb-4">Job Application Form</h1>
+<form method="POST">
+    <div class="form-group">
+        <label for="name">Applicant Name</label>
+        <input type="text" class="form-control" id="name" name="name">
+    </div>
+    <div class="form-group">
+        <label for="position">Position Applied For</label>
+        <input type="text" class="form-control" id="position" name="position">
+    </div>
+    <div class="form-group">
+        <label for="department">Preferred Department</label>
+        <input type="text" class="form-control" id="department" name="department">
+    </div>
+    <div class="form-group">
+        <label for="cover_letter">Cover Letter</label>
+        <textarea class="form-control" id="cover_letter" name="cover_letter" rows="4"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit Application</button>
+</form>
+{% endblock %}

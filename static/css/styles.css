@@ -1,0 +1,52 @@
+/* Import a modern font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f7fa; /* Light gray background */
+}
+
+h1 {
+    font-weight: 600;
+    color: #333;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-floating .form-control {
+    border-radius: 8px;
+}
+
+.btn-custom {
+    background-color: #4e73df;
+    border-color: #4e73df;
+}
+
+.btn-custom:hover {
+    background-color: #2e59d9;
+    border-color: #2653d4;
+}
+
+
+.input-container {
+    position: relative;
+}
+.input-container label {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #aaa;
+    pointer-events: none;
+}
+.input-container input:not(:placeholder-shown) + label,
+.input-container input:focus + label {
+    display: none;
+}

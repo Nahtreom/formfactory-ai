@@ -1,0 +1,167 @@
+{% extends 'base.html' %}
+{% block title %}Workshop Registration{% endblock %}
+
+{% block content %}
+<div class="container mt-4 mb-5">
+    <h1 class="text-center mb-4">Workshop Registration for Continuing Education</h1>
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <div class="card shadow">
+                <div class="card-body">
+                    <form method="POST" action="{{ url_for('workshop_registration') }}" enctype="multipart/form-data">
+                        <!-- 个人信息 -->
+                        <div class="mb-4">
+                            <h3 class="text-success mb-3">Personal Information</h3>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="full_name" class="form-label">Full Name</label>
+                                    <input type="text" class="form-control" id="full_name" name="full_name">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="email" class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" id="email" name="email">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="phone" class="form-label">Phone Number</label>
+                                    <input type="tel" class="form-control" id="phone" name="phone">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="organization" class="form-label">Organization/Company</label>
+                                    <input type="text" class="form-control" id="organization" name="organization">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 工作坊选择 -->
+                        <div class="mb-4">
+                            <h3 class="text-success mb-3">Workshop Selection</h3>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="workshop_type" class="form-label">Workshop Category</label>
+                                    <select class="form-select" id="workshop_type" name="workshop_type">
+                                        <option value="">Select Category</option>
+                                        <option value="technology">Technology & IT</option>
+                                        <option value="business">Business & Management</option>
+                                        <option value="leadership">Leadership & Communication</option>
+                                        <option value="marketing">Digital Marketing</option>
+                                        <option value="finance">Finance & Investment</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="session_date" class="form-label">Preferred Session Date</label>
+                                    <input type="date" class="form-control" id="session_date" name="session_date">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="session_time" class="form-label">Preferred Time Slot</label>
+                                    <select class="form-select" id="session_time" name="session_time">
+                                        <option value="">Select Time Slot</option>
+                                        <option value="morning">Morning (9:00 AM - 12:00 PM)</option>
+                                        <option value="afternoon">Afternoon (1:00 PM - 4:00 PM)</option>
+                                        <option value="evening">Evening (6:00 PM - 9:00 PM)</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="delivery_mode" class="form-label">Preferred Delivery Mode</label>
+                                    <select class="form-select" id="delivery_mode" name="delivery_mode">
+                                        <option value="">Select Mode</option>
+                                        <option value="in_person">In-Person</option>
+                                        <option value="online">Online</option>
+                                        <option value="hybrid">Hybrid</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 专业背景 -->
+                        <div class="mb-4">
+                            <h3 class="text-success mb-3">Professional Background</h3>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="education_level" class="form-label">Highest Education Level</label>
+                                    <select class="form-select" id="education_level" name="education_level">
+                                        <option value="">Select Education Level</option>
+                                        <option value="high_school">High School</option>
+                                        <option value="bachelor">Bachelor's Degree</option>
+                                        <option value="master">Master's Degree</option>
+                                        <option value="doctorate">Doctorate</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="experience_years" class="form-label">Years of Professional Experience</label>
+                                    <input type="number" class="form-control" id="experience_years" name="experience_years">
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <label for="current_role" class="form-label">Current Role/Position</label>
+                                    <input type="text" class="form-control" id="current_role" name="current_role">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 特殊要求 -->
+                        <div class="mb-4">
+                            <h3 class="text-success mb-3">Special Requirements</h3>
+                            <div class="row">
+                                <div class="col-12 mb-3">
+                                    <label for="dietary_requirements" class="form-label">Dietary Requirements</label>
+                                    <select class="form-select" id="dietary_requirements" name="dietary_requirements">
+                                        <option value="none">None</option>
+                                        <option value="vegetarian">Vegetarian</option>
+                                        <option value="vegan">Vegan</option>
+                                        <option value="halal">Halal</option>
+                                        <option value="kosher">Kosher</option>
+                                        <option value="other">Other (Please specify)</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <label for="accessibility_needs" class="form-label">Accessibility Requirements</label>
+                                    <textarea class="form-control" id="accessibility_needs" name="accessibility_needs" rows="2"></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 付款信息 -->
+                        <div class="mb-4">
+                            <h3 class="text-success mb-3">Payment Information</h3>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="payment_method" class="form-label">Payment Method</label>
+                                    <select class="form-select" id="payment_method" name="payment_method">
+                                        <option value="">Select Payment Method</option>
+                                        <option value="credit_card">Credit Card</option>
+                                        <option value="bank_transfer">Bank Transfer</option>
+                                        <option value="company_sponsored">Company Sponsored</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="billing_address" class="form-label">Billing Address</label>
+                                    <input type="text" class="form-control" id="billing_address" name="billing_address">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 附加信息 -->
+                        <div class="mb-4">
+                            <h3 class="text-success mb-3">Additional Information</h3>
+                            <div class="row">
+                                <div class="col-12 mb-3">
+                                    <label for="expectations" class="form-label">What do you hope to learn from this workshop?</label>
+                                    <textarea class="form-control" id="expectations" name="expectations" rows="3"></textarea>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <label for="special_requests" class="form-label">Any other special requests or comments?</label>
+                                    <textarea class="form-control" id="special_requests" name="special_requests" rows="3"></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-success btn-lg px-5">Register Now</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

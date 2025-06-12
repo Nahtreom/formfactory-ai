@@ -1,0 +1,6 @@
+[D11_1][Bug Title][402,590,2477,664]
+[D11_1][Select severity level][612,699,943,744]
+[D11_1][e.g.,Production,Testing,Development][402,858,2477,933]
+[D11_1][e.g.,Chrome 96.0,iOS 15][402,1030,2477,1104]
+[D11_1][Steps to Reproduce][402,1204,2477,1420]
+[D11_1][Expected Behavior][402,1518,2477,1641]

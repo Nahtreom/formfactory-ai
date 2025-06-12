@@ -1,0 +1,402 @@
+[
+  {
+    "Full Name": "Benjamin Scott",
+    "Email Address": "ben.scott24@gmail.com",
+    "Type of Consultation": "Estate Planning",
+    "Preferred Date": "2024/11/30",
+    "Preferred Time": "Evening (4:00 PM -6:00 PM)",
+    "Additional Comments": "Looking to discuss the creation of a living will and managing property distribution."
+  },
+  {
+    "Full Name": "Charlotte Harris",
+    "Email Address": "charlotte.h_1985@yahoo.com",
+    "Type of Consultation": "Retirement Planning",
+    "Preferred Date": "2024/12/10",
+    "Preferred Time": "Morning (9:00 AM-12:00 PM)",
+    "Additional Comments": "Seeking guidance on starting a retirement fund, considering early retirement options."
+  },
+  {
+    "Full Name": "Zachary Lee",
+    "Email Address": "zach.lee96@outlook.com",
+    "Type of Consultation": "Tax Planning",
+    "Preferred Date": "2024/11/22",
+    "Preferred Time": "Afternoon (1:00 PM-4:00 PM)",
+    "Additional Comments": "I want to understand how to optimize my tax filing and deductions for the next year."
+  },
+  {
+    "Full Name": "Isabella Moore",
+    "Email Address": "bella.moore@icloud.com",
+    "Type of Consultation": "Investment Planning",
+    "Preferred Date": "2024/12/02",
+    "Preferred Time": "Evening (4:00 PM -6:00 PM)",
+    "Additional Comments": "Interested in sustainable and ethical investment options for long-term growth."
+  },
+  {
+    "Full Name": "Oliver Walker",
+    "Email Address": "oliver.walker88@gmail.com",
+    "Type of Consultation": "General Financial Planning",
+    "Preferred Date": "2024/11/14",
+    "Preferred Time": "Morning (9:00 AM-12:00 PM)",
+    "Additional Comments": "Need an overall financial strategy, including budgeting and debt management."
+  },
+  {
+    "Full Name": "Amelia Robinson",
+    "Email Address": "amelia.r@outlook.com",
+    "Type of Consultation": "Retirement Planning",
+    "Preferred Date": "2024/11/18",
+    "Preferred Time": "Afternoon (1:00 PM-4:00 PM)",
+    "Additional Comments": "Looking to invest in a Roth IRA and explore options for pension plans."
+  },
+  {
+    "Full Name": "Henry Thompson",
+    "Email Address": "henry.thompson45@yahoo.com",
+    "Type of Consultation": "Estate Planning",
+    "Preferred Date": "2024/12/06",
+    "Preferred Time": "Evening (4:00 PM -6:00 PM)",
+    "Additional Comments": "Looking to set up an estate plan for my children and distribute my assets after retirement."
+  },
+  {
+    "Full Name": "Emily Anderson",
+    "Email Address": "emily_anderson21@icloud.com",
+    "Type of Consultation": "Investment Planning",
+    "Preferred Date": "2024/12/13",
+    "Preferred Time": "Morning (9:00 AM-12:00 PM)",
+    "Additional Comments": "Seeking advice on diversifying my portfolio to include international stocks and bonds."
+  },
+  {
+    "Full Name": "Jackson Evans",
+    "Email Address": "jackson.evans@aol.com",
+    "Type of Consultation": "Tax Planning",
+    "Preferred Date": "2024/11/28",
+    "Preferred Time": "Afternoon (1:00 PM-4:00 PM)",
+    "Additional Comments": "Would like advice on how to manage capital gains and potential tax liabilities."
+  },
+  {
+    "Full Name": "Mia Clark",
+    "Email Address": "miac@outlook.com",
+    "Type of Consultation": "General Financial Planning",
+    "Preferred Date": "2024/12/04",
+    "Preferred Time": "Evening (4:00 PM -6:00 PM)",
+    "Additional Comments": "I want a financial plan that balances short-term savings with long-term investments."
+  },
+  {
+    "Full Name": "Sophia Turner",
+    "Email Address": "turner.sophia_93@gmail.com",
+    "Type of Consultation": "Tax Planning",
+    "Preferred Date": "2024/12/18",
+    "Preferred Time": "Morning (9:00 AM-12:00 PM)",
+    "Additional Comments": "I need guidance on how to reduce my tax liability for the upcoming year."
+  },
+  {
+    "Full Name": "Liam Martin",
+    "Email Address": "liam.martin45@yahoo.com",
+    "Type of Consultation": "Investment Planning",
+    "Preferred Date": "2024/12/20",
+    "Preferred Time": "Afternoon (1:00 PM-4:00 PM)",
+    "Additional Comments": "Looking to start investing in the stock market with a focus on technology stocks."
+  },
+  {
+    "Full Name": "Ella White",
+    "Email Address": "ella.white12@outlook.com",
+    "Type of Consultation": "Retirement Planning",
+    "Preferred Date": "2024/11/29",
+    "Preferred Time": "Evening (4:00 PM -6:00 PM)",
+    "Additional Comments": "I want to plan for a comfortable retirement and explore annuity options."
+  },
+  {
+    "Full Name": "Jackson Harris",
+    "Email Address": "jackson.harris22@gmail.com",
+    "Type of Consultation": "Estate Planning",
+    "Preferred Date": "2024/12/01",
+    "Preferred Time": "Morning (9:00 AM-12:00 PM)",
+    "Additional Comments": "Looking for assistance with creating a will and assigning beneficiaries."
+  },
+  {
+    "Full Name": "Avery Carter",
+    "Email Address": "avery.carter78@icloud.com",
+    "Type of Consultation": "General Financial Planning",
+    "Preferred Date": "2024/11/26",
+    "Preferred Time": "Afternoon (1:00 PM-4:00 PM)",
+    "Additional Comments": "I need help creating a budget that supports my long-term financial goals."
+  },
+  {
+    "Full Name": "William Wilson",
+    "Email Address": "will.wilson@aol.com",
+    "Type of Consultation": "Tax Planning",
+    "Preferred Date": "2024/12/07",
+    "Preferred Time": "Evening (4:00 PM -6:00 PM)",
+    "Additional Comments": "Looking for tax-saving opportunities as I approach retirement."
+  },
+  {
+    "Full Name": "Mason Lee",
+    "Email Address": "mason.lee88@gmail.com",
+    "Type of Consultation": "Investment Planning",
+    "Preferred Date": "2024/12/12",
+    "Preferred Time": "Morning (9:00 AM-12:00 PM)",
+    "Additional Comments": "I would like to explore investment strategies for my children’s future education."
+  },
+  {
+    "Full Name": "Amelia King",
+    "Email Address": "amelia.king78@outlook.com",
+    "Type of Consultation": "Estate Planning",
+    "Preferred Date": "2024/12/15",
+    "Preferred Time": "Afternoon (1:00 PM-4:00 PM)",
+    "Additional Comments": "I need help with setting up a trust fund for my children."
+  },
+  {
+    "Full Name": "Ethan Martinez",
+    "Email Address": "ethan.martinez34@yahoo.com",
+    "Type of Consultation": "Retirement Planning",
+    "Preferred Date": "2024/12/08",
+    "Preferred Time": "Evening (4:00 PM -6:00 PM)",
+    "Additional Comments": "Seeking advice on starting a 401(k) plan for retirement savings."
+  },
+  {
+    "Full Name": "Zoe Jackson",
+    "Email Address": "zoe.jackson@aol.com",
+    "Type of Consultation": "Investment Planning",
+    "Preferred Date": "2024/11/22",
+    "Preferred Time": "Morning (9:00 AM-12:00 PM)",
+    "Additional Comments": "Looking for advice on short-term investments and high-yield savings accounts."
+  },
+  {
+    "Full Name": "Alexander Roberts",
+    "Email Address": "alex.roberts32@gmail.com",
+    "Type of Consultation": "General Financial Planning",
+    "Preferred Date": "2024/12/09",
+    "Preferred Time": "Afternoon (1:00 PM-4:00 PM)",
+    "Additional Comments": "I need to evaluate my spending habits and improve my savings plan."
+  },
+  {
+    "Full Name": "Grace Clark",
+    "Email Address": "grace.clark41@icloud.com",
+    "Type of Consultation": "Estate Planning",
+    "Preferred Date": "2024/11/24",
+    "Preferred Time": "Evening (4:00 PM -6:00 PM)",
+    "Additional Comments": "Looking to establish clear guidelines for my family in case of an emergency."
+  },
+  {
+    "Full Name": "Jackson Robinson",
+    "Email Address": "jackson.robinson@outlook.com",
+    "Type of Consultation": "Retirement Planning",
+    "Preferred Date": "2024/12/14",
+    "Preferred Time": "Morning (9:00 AM-12:00 PM)",
+    "Additional Comments": "I want to ensure that I am saving enough to retire early and comfortably."
+  },
+  {
+    "Full Name": "Scarlett Walker",
+    "Email Address": "scarlett.walker29@aol.com",
+    "Type of Consultation": "Tax Planning",
+    "Preferred Date": "2024/11/27",
+    "Preferred Time": "Afternoon (1:00 PM-4:00 PM)",
+    "Additional Comments": "Looking for ways to reduce my taxable income and claim more deductions."
+  },
+  {
+    "Full Name": "Elijah Davis",
+    "Email Address": "elijah.davis96@gmail.com",
+    "Type of Consultation": "Investment Planning",
+    "Preferred Date": "2024/11/25",
+    "Preferred Time": "Evening (4:00 PM -6:00 PM)",
+    "Additional Comments": "I am interested in setting up an investment plan with a focus on sustainable investments."
+  },
+  {
+    "Full Name": "Evan Miller",
+    "Email Address": "evan.miller56@gmail.com",
+    "Type of Consultation": "General Financial Planning",
+    "Preferred Date": "2024/12/20",
+    "Preferred Time": "Morning (9:00 AM-12:00 PM)",
+    "Additional Comments": "Looking to get a better handle on my monthly budget and debt repayment plan."
+  },
+  {
+    "Full Name": "Sophie Thompson",
+    "Email Address": "sophie.thompson32@outlook.com",
+    "Type of Consultation": "Estate Planning",
+    "Preferred Date": "2024/12/11",
+    "Preferred Time": "Afternoon (1:00 PM-4:00 PM)",
+    "Additional Comments": "Seeking advice on setting up a living trust and avoiding probate."
+  },
+  {
+    "Full Name": "Jacob Harris",
+    "Email Address": "jacob.harris101@yahoo.com",
+    "Type of Consultation": "Retirement Planning",
+    "Preferred Date": "2024/11/19",
+    "Preferred Time": "Evening (4:00 PM -6:00 PM)",
+    "Additional Comments": "I am looking for advice on optimizing my 401(k) contributions."
+  },
+  {
+    "Full Name": "Megan Wilson",
+    "Email Address": "megan.wilson87@gmail.com",
+    "Type of Consultation": "Investment Planning",
+    "Preferred Date": "2024/12/03",
+    "Preferred Time": "Morning (9:00 AM-12:00 PM)",
+    "Additional Comments": "Looking to diversify my investments with a mix of stocks and bonds."
+  },
+  {
+    "Full Name": "Oliver Roberts",
+    "Email Address": "oliver.roberts45@icloud.com",
+    "Type of Consultation": "Tax Planning",
+    "Preferred Date": "2024/12/17",
+    "Preferred Time": "Afternoon (1:00 PM-4:00 PM)",
+    "Additional Comments": "Seeking strategies to maximize my deductions and minimize tax liabilities."
+  },
+  {
+    "Full Name": "Isabella Martinez",
+    "Email Address": "isabella.martinez89@aol.com",
+    "Type of Consultation": "General Financial Planning",
+    "Preferred Date": "2024/11/30",
+    "Preferred Time": "Evening (4:00 PM -6:00 PM)",
+    "Additional Comments": "I want help with long-term savings goals and planning for my children’s education."
+  },
+  {
+    "Full Name": "Aiden Lewis",
+    "Email Address": "aiden.lewis72@outlook.com",
+    "Type of Consultation": "Investment Planning",
+    "Preferred Date": "2024/12/09",
+    "Preferred Time": "Morning (9:00 AM-12:00 PM)",
+    "Additional Comments": "Interested in exploring cryptocurrency investments and their risk factors."
+  },
+  {
+    "Full Name": "Olivia Clark",
+    "Email Address": "olivia.clark33@gmail.com",
+    "Type of Consultation": "Retirement Planning",
+    "Preferred Date": "2024/12/16",
+    "Preferred Time": "Afternoon (1:00 PM-4:00 PM)",
+    "Additional Comments": "Looking for advice on managing my retirement savings while maintaining my lifestyle."
+  },
+  {
+    "Full Name": "Liam Robinson",
+    "Email Address": "liam.robinson@icloud.com",
+    "Type of Consultation": "Estate Planning",
+    "Preferred Date": "2024/12/05",
+    "Preferred Time": "Morning (9:00 AM-12:00 PM)",
+    "Additional Comments": "Want to ensure my estate is distributed according to my wishes and minimize taxes."
+  },
+  {
+    "Full Name": "Ava Walker",
+    "Email Address": "ava.walker23@outlook.com",
+    "Type of Consultation": "Investment Planning",
+    "Preferred Date": "2024/12/21",
+    "Preferred Time": "Afternoon (1:00 PM-4:00 PM)",
+    "Additional Comments": "Seeking advice on real estate investments as part of my portfolio."
+  },
+  {
+    "Full Name": "Mason Johnson",
+    "Email Address": "mason.johnson88@aol.com",
+    "Type of Consultation": "General Financial Planning",
+    "Preferred Date": "2024/11/23",
+    "Preferred Time": "Evening (4:00 PM -6:00 PM)",
+    "Additional Comments": "Want to create a more effective budgeting strategy and better track my spending."
+  },
+  {
+    "Full Name": "Emily Taylor",
+    "Email Address": "emily.taylor@icloud.com",
+    "Type of Consultation": "Tax Planning",
+    "Preferred Date": "2024/12/04",
+    "Preferred Time": "Morning (9:00 AM-12:00 PM)",
+    "Additional Comments": "I need to understand the tax benefits of investing in a tax-deferred account."
+  },
+  {
+    "Full Name": "Charlotte King",
+    "Email Address": "charlotte.king74@gmail.com",
+    "Type of Consultation": "Estate Planning",
+    "Preferred Date": "2024/12/19",
+    "Preferred Time": "Afternoon (1:00 PM-4:00 PM)",
+    "Additional Comments": "Seeking advice on how to structure my will to avoid family disputes."
+  },
+  {
+    "Full Name": "Elijah Harris",
+    "Email Address": "elijah.harris19@yahoo.com",
+    "Type of Consultation": "Retirement Planning",
+    "Preferred Date": "2024/12/22",
+    "Preferred Time": "Evening (4:00 PM -6:00 PM)",
+    "Additional Comments": "Looking to start contributing to an IRA and plan for early retirement."
+  },
+  {
+    "Full Name": "Ethan Mitchell",
+    "Email Address": "ethan.mitchell21@outlook.com",
+    "Type of Consultation": "General Financial Planning",
+    "Preferred Date": "2024/12/10",
+    "Preferred Time": "Morning (9:00 AM-12:00 PM)",
+    "Additional Comments": "Need help to create a comprehensive financial plan to cover both short-term and long-term goals."
+  },
+  {
+    "Full Name": "Lily Adams",
+    "Email Address": "lily.adams99@gmail.com",
+    "Type of Consultation": "Investment Planning",
+    "Preferred Date": "2024/12/23",
+    "Preferred Time": "Morning (9:00 AM-12:00 PM)",
+    "Additional Comments": "I am looking for advice on how to diversify my portfolio with international investments."
+  },
+  {
+    "Full Name": "James Carter",
+    "Email Address": "james.carter32@aol.com",
+    "Type of Consultation": "Estate Planning",
+    "Preferred Date": "2024/12/18",
+    "Preferred Time": "Afternoon (1:00 PM-4:00 PM)",
+    "Additional Comments": "Need assistance with setting up a durable power of attorney and end-of-life decisions."
+  },
+  {
+    "Full Name": "Harper Brooks",
+    "Email Address": "harper.brooks84@outlook.com",
+    "Type of Consultation": "Tax Planning",
+    "Preferred Date": "2024/11/29",
+    "Preferred Time": "Evening (4:00 PM -6:00 PM)",
+    "Additional Comments": "I am self-employed and need tax-saving strategies for my business expenses."
+  },
+  {
+    "Full Name": "Jackie Evans",
+    "Email Address": "jackie.evans55@gmail.com",
+    "Type of Consultation": "Retirement Planning",
+    "Preferred Date": "2024/12/13",
+    "Preferred Time": "Morning (9:00 AM-12:00 PM)",
+    "Additional Comments": "Looking to maximize contributions to my 401(k) and get advice on setting up a retirement budget."
+  },
+  {
+    "Full Name": "Matthew Scott",
+    "Email Address": "matthew.scott88@yahoo.com",
+    "Type of Consultation": "General Financial Planning",
+    "Preferred Date": "2024/12/11",
+    "Preferred Time": "Afternoon (1:00 PM-4:00 PM)",
+    "Additional Comments": "I want a clear financial plan that includes emergency savings and debt repayment."
+  },
+  {
+    "Full Name": "Natalie Morgan",
+    "Email Address": "natalie.morgan77@icloud.com",
+    "Type of Consultation": "Investment Planning",
+    "Preferred Date": "2024/12/06",
+    "Preferred Time": "Evening (4:00 PM -6:00 PM)",
+    "Additional Comments": "Interested in learning more about socially responsible investments and ESG funds."
+  },
+  {
+    "Full Name": "Daniel Lee",
+    "Email Address": "daniel.lee21@outlook.com",
+    "Type of Consultation": "Estate Planning",
+    "Preferred Date": "2024/12/14",
+    "Preferred Time": "Morning (9:00 AM-12:00 PM)",
+    "Additional Comments": "I need to create a will and explore options for reducing estate taxes."
+  },
+  {
+    "Full Name": "Sophia Mitchell",
+    "Email Address": "sophia.mitchell41@gmail.com",
+    "Type of Consultation": "Tax Planning",
+    "Preferred Date": "2024/12/24",
+    "Preferred Time": "Afternoon (1:00 PM-4:00 PM)",
+    "Additional Comments": "Looking to understand tax strategies for investments in real estate and stocks."
+  },
+  {
+    "Full Name": "William Lee",
+    "Email Address": "william.lee94@icloud.com",
+    "Type of Consultation": "Retirement Planning",
+    "Preferred Date": "2024/12/17",
+    "Preferred Time": "Morning (9:00 AM-12:00 PM)",
+    "Additional Comments": "Seeking advice on how to balance my retirement portfolio between riskier and safer assets."
+  },
+  {
+    "Full Name": "Charlotte Brown",
+    "Email Address": "charlotte.brown66@gmail.com",
+    "Type of Consultation": "General Financial Planning",
+    "Preferred Date": "2024/12/08",
+    "Preferred Time": "Evening (4:00 PM -6:00 PM)",
+    "Additional Comments": "Looking to plan for both my short-term savings and long-term wealth-building goals."
+  }
+]

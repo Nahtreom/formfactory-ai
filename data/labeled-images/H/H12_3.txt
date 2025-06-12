@@ -1,0 +1,6 @@
+[H12_3][Technical Specifications][402,530,2477,700]
+[H12_3][Quality Standards][402,798,2477,873]
+[H12_3][Required Delivery Date][402,1077,1409,1151]
+[H12_3][Select shipping method][1870,1013,2256,1058]
+[H12_3][Technical Drawings][402,1386,2477,1460]
+[H12_3][Additional Documentation][402,1558,2477,1632]

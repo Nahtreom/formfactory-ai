@@ -1,0 +1,4 @@
+[B13_8][Select Payment Method][841,1036,1231,1080]
+[B13_8][Credit Card][841,1086,1231,1130]
+[B13_8][Bank Transfer][841,1136,1231,1180]
+[B13_8][Company Sponsored][841,1186,1231,1230]

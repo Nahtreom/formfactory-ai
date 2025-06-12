@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+{% block title %}NDA Submission Form{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Non-Disclosure Agreement (NDA) Submission</h1>
+    
+    <div class="card shadow">
+        <div class="card-body">
+            <form method="POST" id="ndaForm">
+                <!-- Party Information -->
+                <h4 class="mb-3">Party Information</h4>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="partyName" class="form-label">Party Name (Individual/Company)</label>
+                        <input type="text" class="form-control" id="partyName" name="partyName" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="partyType" class="form-label">Party Type</label>
+                        <select class="form-select" id="partyType" name="partyType" required>
+                            <option value="">Select party type</option>
+                            <option value="individual">Individual</option>
+                            <option value="company">Company</option>
+                            <option value="partnership">Partnership</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Agreement Details -->
+                <h4 class="mb-3 mt-4">Agreement Details</h4>
+                <div class="mb-3">
+                    <label for="purpose" class="form-label">Purpose of NDA</label>
+                    <textarea class="form-control" id="purpose" name="purpose" rows="3" required></textarea>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="startDate" class="form-label">Effective Date</label>
+                        <input type="date" class="form-control" id="startDate" name="startDate" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="duration" class="form-label">Duration (Years)</label>
+                        <input type="number" class="form-control" id="duration" name="duration" required min="1">
+                    </div>
+                </div>
+
+                <!-- Authorized Representative -->
+                <h4 class="mb-3 mt-4">Authorized Representative</h4>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="repName" class="form-label">Representative Name</label>
+                        <input type="text" class="form-control" id="repName" name="repName" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="repTitle" class="form-label">Title/Position</label>
+                        <input type="text" class="form-control" id="repTitle" name="repTitle" required>
+                    </div>
+                </div>
+
+                <!-- Acknowledgments -->
+                <h4 class="mb-3 mt-4">Acknowledgments</h4>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="termsAgreed" name="termsAgreed" required>
+                    <label class="form-check-label" for="termsAgreed">
+                        I have read and agree to the terms of the Non-Disclosure Agreement
+                    </label>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="authorityConfirm" name="authorityConfirm" required>
+                    <label class="form-check-label" for="authorityConfirm">
+                        I confirm that I have the authority to enter into this agreement
+                    </label>
+                </div>
+
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-secondary">Submit NDA</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %} 

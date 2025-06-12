@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paper Submission</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Paper Submission</h1>
+        
+        <form method="POST">
+            <!-- 作者信息 -->
+            <div class="form-group">
+                <label for="author_name">Author Name</label>
+                <input type="text" class="form-control" id="author_name" name="author_name">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name="email">
+            </div>
+
+            <!-- 论文信息 -->
+            <div class="form-group">
+                <label for="paper_title">Paper Title</label>
+                <input type="text" class="form-control" id="paper_title" name="paper_title">
+            </div>
+
+            <div class="form-group">
+                <label for="abstract">Abstract</label>
+                <textarea class="form-control" id="abstract" name="abstract" rows="4"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="keywords">Keywords</label>
+                <input type="text" class="form-control" id="keywords" name="keywords" 
+                       placeholder="Separate keywords with commas">
+            </div>
+
+            <!-- 论文分类 -->
+            <div class="form-group">
+                <label for="category">Paper Category</label>
+                <select class="form-control" id="category" name="category">
+                    <option value="">Select a category</option>
+                    <option value="computer_science">Computer Science</option>
+                    <option value="engineering">Engineering</option>
+                    <option value="mathematics">Mathematics</option>
+                    <option value="physics">Physics</option>
+                </select>
+            </div>
+
+            <!-- 文件上传 -->
+            <div class="form-group">
+                <label for="paper_file">Upload Paper (PDF)</label>
+                <input type="file" class="form-control-file" id="paper_file" name="paper_file" 
+                       accept=".pdf">
+            </div>
+
+            <!-- 提交按钮 -->
+            <button type="submit" class="btn btn-primary">Submit Paper</button>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

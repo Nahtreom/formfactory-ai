@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+{% block title %}Bug Report Form{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Bug Report Form</h1>
+    
+    <div class="card shadow">
+        <div class="card-body">
+            <form method="POST" id="bugReportForm">
+                <div class="mb-3">
+                    <label for="title" class="form-label">Bug Title</label>
+                    <input type="text" class="form-control" id="title" name="title">
+                </div>
+
+                <div class="mb-3">
+                    <label for="severity" class="form-label">Severity Level</label>
+                    <select class="form-select" id="severity" name="severity">
+                        <option value="">Select severity level</option>
+                        <option value="critical">Critical</option>
+                        <option value="high">High</option>
+                        <option value="medium">Medium</option>
+                        <option value="low">Low</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label for="environment" class="form-label">Environment</label>
+                    <input type="text" class="form-control" id="environment" name="environment" 
+                           placeholder="e.g., Production, Testing, Development">
+                </div>
+
+                <div class="mb-3">
+                    <label for="browser" class="form-label">Browser/Platform</label>
+                    <input type="text" class="form-control" id="browser" name="browser" 
+                           placeholder="e.g., Chrome 96.0, iOS 15">
+                </div>
+
+                <div class="mb-3">
+                    <label for="steps" class="form-label">Steps to Reproduce</label>
+                    <textarea class="form-control" id="steps" name="steps" rows="4"></textarea>
+                </div>
+
+                <div class="mb-3">
+                    <label for="expected" class="form-label">Expected Behavior</label>
+                    <textarea class="form-control" id="expected" name="expected" rows="2"></textarea>
+                </div>
+
+                <div class="mb-3">
+                    <label for="actual" class="form-label">Actual Behavior</label>
+                    <textarea class="form-control" id="actual" name="actual" rows="2"></textarea>
+                </div>
+
+                <div class="mb-3">
+                    <label for="attachments" class="form-label">Attachments (Optional)</label>
+                    <input type="file" class="form-control" id="attachments" name="attachments" multiple>
+                    <div class="form-text">Upload screenshots or relevant files</div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="reporter" class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="reporter" name="reporter">
+                </div>
+
+                <div class="mb-3">
+                    <label for="email" class="form-label">Your Email</label>
+                    <input type="email" class="form-control" id="email" name="email">
+                </div>
+
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Submit Bug Report</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %} 

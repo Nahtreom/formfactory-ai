@@ -1,0 +1,402 @@
+[
+    {
+      "Policy Number": "A1234567890",
+      "Policy Holder Name": "Emily Turner",
+      "Date of Service": "2024/01/15",
+      "Claim Amount ($)": 250.00,
+      "Type of Service": "Doctor Consultation",
+      "Diagnosis/Condition": "General Checkup, Mild Fatigue",
+      "Provider Name": "Dr. Alice Green",
+      "Provider ID Number": "D12345"
+    },
+    {
+      "Policy Number": "B0987654321",
+      "Policy Holder Name": "James Lee",
+      "Date of Service": "2024/02/02",
+      "Claim Amount ($)": 1500.00,
+      "Type of Service": "Medical Procedure",
+      "Diagnosis/Condition": "Knee Surgery (Arthroscopy)",
+      "Provider Name": "Dr. David Miller",
+      "Provider ID Number": "M67890"
+    },
+    {
+      "Policy Number": "C5647382910",
+      "Policy Holder Name": "Sarah Harris",
+      "Date of Service": "2024/03/10",
+      "Claim Amount ($)": 120.00,
+      "Type of Service": "Prescription Medication",
+      "Diagnosis/Condition": "Asthma",
+      "Provider Name": "Pharmacy RX Care",
+      "Provider ID Number": "P111223"
+    },
+    {
+      "Policy Number": "D9021847364",
+      "Policy Holder Name": "Michael Davis",
+      "Date of Service": "2024/04/20",
+      "Claim Amount ($)": 980.00,
+      "Type of Service": "Laboratory Tests",
+      "Diagnosis/Condition": "Blood Test, Cholesterol Levels",
+      "Provider Name": "LabCorp Diagnostics",
+      "Provider ID Number": "L34567"
+    },
+    {
+      "Policy Number": "E1289037465",
+      "Policy Holder Name": "Olivia Johnson",
+      "Date of Service": "2024/02/25",
+      "Claim Amount ($)": 1800.00,
+      "Type of Service": "Emergency Care",
+      "Diagnosis/Condition": "Car Accident, Fractured Leg",
+      "Provider Name": "St. John's Hospital",
+      "Provider ID Number": "SJH09876"
+    },
+    {
+      "Policy Number": "F2039485762",
+      "Policy Holder Name": "Jack Brown",
+      "Date of Service": "2024/01/22",
+      "Claim Amount ($)": 430.00,
+      "Type of Service": "Doctor Consultation",
+      "Diagnosis/Condition": "Back Pain, Muscle Strain",
+      "Provider Name": "Dr. John Smith",
+      "Provider ID Number": "J23456"
+    },
+    {
+      "Policy Number": "G9876543210",
+      "Policy Holder Name": "Sophia White",
+      "Date of Service": "2024/03/15",
+      "Claim Amount ($)": 850.00,
+      "Type of Service": "Medical Procedure",
+      "Diagnosis/Condition": "Appendectomy (Emergency)",
+      "Provider Name": "Dr. Michael Brown",
+      "Provider ID Number": "MB12345"
+    },
+    {
+      "Policy Number": "H9988776655",
+      "Policy Holder Name": "Daniel Lee",
+      "Date of Service": "2024/04/05",
+      "Claim Amount ($)": 120.00,
+      "Type of Service": "Prescription Medication",
+      "Diagnosis/Condition": "Seasonal Allergies",
+      "Provider Name": "Cedar Pharmacy",
+      "Provider ID Number": "CP23456"
+    },
+    {
+      "Policy Number": "I3124567890",
+      "Policy Holder Name": "Rachel Wilson",
+      "Date of Service": "2024/03/18",
+      "Claim Amount ($)": 250.00,
+      "Type of Service": "Laboratory Tests",
+      "Diagnosis/Condition": "Urine Test, Kidney Function",
+      "Provider Name": "Quest Diagnostics",
+      "Provider ID Number": "QD78901"
+    },
+    {
+      "Policy Number": "J4567839012",
+      "Policy Holder Name": "Lucas White",
+      "Date of Service": "2024/02/10",
+      "Claim Amount ($)": 2000.00,
+      "Type of Service": "Emergency Care",
+      "Diagnosis/Condition": "Severe Asthma Attack",
+      "Provider Name": "New Hope Medical Center",
+      "Provider ID Number": "NHMC23456"
+    },
+    {
+        "Policy Number": "K7038259174",
+        "Policy Holder Name": "Aidan Clark",
+        "Date of Service": "2024/05/02",
+        "Claim Amount ($)": 300.00,
+        "Type of Service": "Doctor Consultation",
+        "Diagnosis/Condition": "Routine Physical Exam",
+        "Provider Name": "Dr. Susan Moore",
+        "Provider ID Number": "SM13579"
+      },
+      {
+        "Policy Number": "L8762935048",
+        "Policy Holder Name": "Nina Roberts",
+        "Date of Service": "2024/06/08",
+        "Claim Amount ($)": 1500.00,
+        "Type of Service": "Medical Procedure",
+        "Diagnosis/Condition": "Gallbladder Removal Surgery",
+        "Provider Name": "Dr. William King",
+        "Provider ID Number": "WK23412"
+      },
+      {
+        "Policy Number": "M4328791560",
+        "Policy Holder Name": "Charlie Wright",
+        "Date of Service": "2024/07/14",
+        "Claim Amount ($)": 450.00,
+        "Type of Service": "Prescription Medication",
+        "Diagnosis/Condition": "High Blood Pressure",
+        "Provider Name": "Health Pharmacy",
+        "Provider ID Number": "HP34567"
+      },
+      {
+        "Policy Number": "N6538291075",
+        "Policy Holder Name": "Ella Miller",
+        "Date of Service": "2024/08/02",
+        "Claim Amount ($)": 980.00,
+        "Type of Service": "Laboratory Tests",
+        "Diagnosis/Condition": "Complete Blood Count (CBC)",
+        "Provider Name": "MediLab Diagnostics",
+        "Provider ID Number": "ML45678"
+      },
+      {
+        "Policy Number": "O7843560912",
+        "Policy Holder Name": "Joshua Anderson",
+        "Date of Service": "2024/09/05",
+        "Claim Amount ($)": 2500.00,
+        "Type of Service": "Emergency Care",
+        "Diagnosis/Condition": "Severe Heart Attack",
+        "Provider Name": "City General Hospital",
+        "Provider ID Number": "CGH12345"
+      },
+      {
+        "Policy Number": "P9215673840",
+        "Policy Holder Name": "Sophia Taylor",
+        "Date of Service": "2024/05/22",
+        "Claim Amount ($)": 320.00,
+        "Type of Service": "Doctor Consultation",
+        "Diagnosis/Condition": "Chronic Migraine",
+        "Provider Name": "Dr. Joseph Lee",
+        "Provider ID Number": "JL67890"
+      },
+      {
+        "Policy Number": "Q5408219365",
+        "Policy Holder Name": "Benjamin Scott",
+        "Date of Service": "2024/06/12",
+        "Claim Amount ($)": 2200.00,
+        "Type of Service": "Medical Procedure",
+        "Diagnosis/Condition": "Hip Replacement Surgery",
+        "Provider Name": "Dr. Christina White",
+        "Provider ID Number": "CW56789"
+      },
+      {
+        "Policy Number": "R1347590824",
+        "Policy Holder Name": "Grace Evans",
+        "Date of Service": "2024/07/27",
+        "Claim Amount ($)": 100.00,
+        "Type of Service": "Prescription Medication",
+        "Diagnosis/Condition": "Chronic Allergies",
+        "Provider Name": "NorthSide Pharmacy",
+        "Provider ID Number": "NSP23456"
+      },
+      {
+        "Policy Number": "S9756123840",
+        "Policy Holder Name": "David Thompson",
+        "Date of Service": "2024/09/18",
+        "Claim Amount ($)": 520.00,
+        "Type of Service": "Laboratory Tests",
+        "Diagnosis/Condition": "Liver Function Tests",
+        "Provider Name": "BioTest Laboratories",
+        "Provider ID Number": "BT67890"
+      },
+      {
+        "Policy Number": "T1685390427",
+        "Policy Holder Name": "Megan Foster",
+        "Date of Service": "2024/08/15",
+        "Claim Amount ($)": 3500.00,
+        "Type of Service": "Emergency Care",
+        "Diagnosis/Condition": "Motorcycle Accident, Multiple Fractures",
+        "Provider Name": "Red Cross Medical Center",
+        "Provider ID Number": "RCMC98765"
+      },
+      {
+        "Policy Number": "U5738291046",
+        "Policy Holder Name": "Liam Carter",
+        "Date of Service": "2024/10/02",
+        "Claim Amount ($)": 900.00,
+        "Type of Service": "Doctor Consultation",
+        "Diagnosis/Condition": "Seasonal Flu",
+        "Provider Name": "Dr. Helen Moore",
+        "Provider ID Number": "HM33467"
+      },
+      {
+        "Policy Number": "V3872495018",
+        "Policy Holder Name": "Anna Gonzalez",
+        "Date of Service": "2024/11/10",
+        "Claim Amount ($)": 3200.00,
+        "Type of Service": "Medical Procedure",
+        "Diagnosis/Condition": "Cataract Surgery",
+        "Provider Name": "Dr. Robert Smith",
+        "Provider ID Number": "RS78910"
+      },
+      {
+        "Policy Number": "W4683925471",
+        "Policy Holder Name": "Samuel Brooks",
+        "Date of Service": "2024/12/03",
+        "Claim Amount ($)": 75.00,
+        "Type of Service": "Prescription Medication",
+        "Diagnosis/Condition": "Cold and Cough",
+        "Provider Name": "Main Street Pharmacy",
+        "Provider ID Number": "MSP45678"
+      },
+      {
+        "Policy Number": "X2938475610",
+        "Policy Holder Name": "Lily Adams",
+        "Date of Service": "2024/10/22",
+        "Claim Amount ($)": 500.00,
+        "Type of Service": "Laboratory Tests",
+        "Diagnosis/Condition": "Blood Sugar Test",
+        "Provider Name": "Wellness Lab",
+        "Provider ID Number": "WL12345"
+      },
+      {
+        "Policy Number": "Y8456723091",
+        "Policy Holder Name": "Lucas Martin",
+        "Date of Service": "2024/09/28",
+        "Claim Amount ($)": 4200.00,
+        "Type of Service": "Emergency Care",
+        "Diagnosis/Condition": "Severe Stroke",
+        "Provider Name": "City Health Medical Center",
+        "Provider ID Number": "CHMC54321"
+      },
+      {
+        "Policy Number": "Z1124553762",
+        "Policy Holder Name": "Chloe Wilson",
+        "Date of Service": "2024/10/12",
+        "Claim Amount ($)": 650.00,
+        "Type of Service": "Doctor Consultation",
+        "Diagnosis/Condition": "Anxiety Disorder",
+        "Provider Name": "Dr. Katherine Lee",
+        "Provider ID Number": "KL98765"
+      },
+      {
+        "Policy Number": "A9876245103",
+        "Policy Holder Name": "Daniel Hernandez",
+        "Date of Service": "2024/11/19",
+        "Claim Amount ($)": 300.00,
+        "Type of Service": "Prescription Medication",
+        "Diagnosis/Condition": "Chronic Pain Relief",
+        "Provider Name": "Pharmacy Central",
+        "Provider ID Number": "PC23457"
+      },
+      {
+        "Policy Number": "B9248560173",
+        "Policy Holder Name": "Mason Lee",
+        "Date of Service": "2024/12/01",
+        "Claim Amount ($)": 400.00,
+        "Type of Service": "Medical Procedure",
+        "Diagnosis/Condition": "Mole Removal Surgery",
+        "Provider Name": "Dr. Emily Clark",
+        "Provider ID Number": "EC87654"
+      },
+      {
+        "Policy Number": "C7364928054",
+        "Policy Holder Name": "Aiden James",
+        "Date of Service": "2024/11/15",
+        "Claim Amount ($)": 1550.00,
+        "Type of Service": "Laboratory Tests",
+        "Diagnosis/Condition": "Lung Function Test",
+        "Provider Name": "Clinical Labs",
+        "Provider ID Number": "CL34567"
+      },
+      {
+        "Policy Number": "D2837495627",
+        "Policy Holder Name": "Victoria Scott",
+        "Date of Service": "2024/12/05",
+        "Claim Amount ($)": 2600.00,
+        "Type of Service": "Emergency Care",
+        "Diagnosis/Condition": "Severe Allergic Reaction",
+        "Provider Name": "General Hospital Emergency Department",
+        "Provider ID Number": "GHED99876"
+      },
+      {
+        "Policy Number": "E5281943670",
+        "Policy Holder Name": "Amelia Taylor",
+        "Date of Service": "2024/10/30",
+        "Claim Amount ($)": 275.00,
+        "Type of Service": "Doctor Consultation",
+        "Diagnosis/Condition": "Skin Rash",
+        "Provider Name": "Dr. Linda Walker",
+        "Provider ID Number": "LW12345"
+      },
+      {
+        "Policy Number": "F6398102745",
+        "Policy Holder Name": "Ethan Roberts",
+        "Date of Service": "2024/11/02",
+        "Claim Amount ($)": 1900.00,
+        "Type of Service": "Medical Procedure",
+        "Diagnosis/Condition": "Spinal Surgery",
+        "Provider Name": "Dr. Jason Lee",
+        "Provider ID Number": "JL23456"
+      },
+      {
+        "Policy Number": "G2047623819",
+        "Policy Holder Name": "Isabella Davis",
+        "Date of Service": "2024/12/13",
+        "Claim Amount ($)": 115.00,
+        "Type of Service": "Prescription Medication",
+        "Diagnosis/Condition": "Cold and Cough",
+        "Provider Name": "City Pharmacy",
+        "Provider ID Number": "CP56789"
+      },
+      {
+        "Policy Number": "H9835746208",
+        "Policy Holder Name": "Jackson Evans",
+        "Date of Service": "2024/11/25",
+        "Claim Amount ($)": 800.00,
+        "Type of Service": "Laboratory Tests",
+        "Diagnosis/Condition": "Cholesterol Test",
+        "Provider Name": "BioLabs Medical",
+        "Provider ID Number": "BL34567"
+      },
+      {
+        "Policy Number": "I1768594023",
+        "Policy Holder Name": "Avery Martinez",
+        "Date of Service": "2024/12/08",
+        "Claim Amount ($)": 2200.00,
+        "Type of Service": "Emergency Care",
+        "Diagnosis/Condition": "Heart Attack",
+        "Provider Name": "St. Mary's Hospital",
+        "Provider ID Number": "SMH12345"
+      },
+      {
+        "Policy Number": "J6382935741",
+        "Policy Holder Name": "Grace Miller",
+        "Date of Service": "2024/10/15",
+        "Claim Amount ($)": 450.00,
+        "Type of Service": "Doctor Consultation",
+        "Diagnosis/Condition": "Thyroid Disorder",
+        "Provider Name": "Dr. Sarah Green",
+        "Provider ID Number": "SG67890"
+      },
+      {
+        "Policy Number": "K2948175062",
+        "Policy Holder Name": "Matthew Lee",
+        "Date of Service": "2024/11/19",
+        "Claim Amount ($)": 1300.00,
+        "Type of Service": "Medical Procedure",
+        "Diagnosis/Condition": "Knee Arthroscopy",
+        "Provider Name": "Dr. Olivia Clark",
+        "Provider ID Number": "OC23456"
+      },
+      {
+        "Policy Number": "L5723084091",
+        "Policy Holder Name": "Sophia Anderson",
+        "Date of Service": "2024/12/04",
+        "Claim Amount ($)": 105.00,
+        "Type of Service": "Prescription Medication",
+        "Diagnosis/Condition": "Allergic Rhinitis",
+        "Provider Name": "RX Health Pharmacy",
+        "Provider ID Number": "RXP67890"
+      },
+      {
+        "Policy Number": "M8647205389",
+        "Policy Holder Name": "Daniel Young",
+        "Date of Service": "2024/10/23",
+        "Claim Amount ($)": 3500.00,
+        "Type of Service": "Laboratory Tests",
+        "Diagnosis/Condition": "CT Scan (Chest)",
+        "Provider Name": "HealthLabs Medical",
+        "Provider ID Number": "HL78901"
+      },
+      {
+        "Policy Number": "N1387259403",
+        "Policy Holder Name": "Ella Robinson",
+        "Date of Service": "2024/11/07",
+        "Claim Amount ($)": 3500.00,
+        "Type of Service": "Emergency Care",
+        "Diagnosis/Condition": "Car Accident, Multiple Injuries",
+        "Provider Name": "Central City Hospital",
+        "Provider ID Number": "CCH67890"
+      }
+  ]

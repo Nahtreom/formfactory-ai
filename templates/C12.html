@@ -1,0 +1,110 @@
+{% extends 'base.html' %}
+{% block title %}Literary Magazine Submission{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-purple mb-4">Literary Magazine Submission Form</h1>
+    
+    <form method="POST" enctype="multipart/form-data">
+        <div class="card shadow-sm mb-4">
+            <div class="card-body">
+                <!-- 作者信息 -->
+                <h3 class="card-title mb-4">Author Information</h3>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="author_name">Author Name *</label>
+                            <input type="text" class="form-control" id="author_name" name="author_name">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" class="form-control" id="email" name="email">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 作品信息 -->
+                <h3 class="card-title mb-4">Work Details</h3>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="work_title">Title *</label>
+                            <input type="text" class="form-control" id="work_title" name="work_title">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="genre">Genre *</label>
+                            <select class="form-control" id="genre" name="genre">
+                                <option value="">Select Genre</option>
+                                <option value="poetry">Poetry</option>
+                                <option value="fiction">Fiction</option>
+                                <option value="non-fiction">Non-Fiction</option>
+                                <option value="essay">Essay</option>
+                                <option value="review">Literary Review</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="word_count">Word Count *</label>
+                    <input type="number" class="form-control" id="word_count" name="word_count" min="1">
+                    <small class="text-muted">Poetry: max 100 lines; Fiction: 1000-7500 words; Non-Fiction: 1000-5000 words</small>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="abstract">Abstract/Summary *</label>
+                    <textarea class="form-control" id="abstract" name="abstract" rows="3"></textarea>
+                    <small class="text-muted">Brief description of your work (max 300 words)</small>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="manuscript">Manuscript File *</label>
+                    <input type="file" class="form-control" id="manuscript" name="manuscript" accept=".doc,.docx,.pdf">
+                    <small class="text-muted">Accepted formats: DOC, DOCX, PDF. Maximum file size: 10MB</small>
+                </div>
+
+                <!-- 提交信息 -->
+                <h3 class="card-title mb-4">Submission Details</h3>
+                <div class="form-group mb-3">
+                    <label for="issue">Preferred Issue</label>
+                    <select class="form-control" id="issue" name="issue">
+                        <option value="spring">Spring 2024</option>
+                        <option value="summer">Summer 2024</option>
+                        <option value="fall">Fall 2024</option>
+                        <option value="winter">Winter 2024</option>
+                    </select>
+                </div>
+
+                <div class="form-check mb-3">
+                    <input type="checkbox" class="form-check-input" id="previously_published" name="previously_published">
+                    <label class="form-check-label" for="previously_published">
+                        This work has been previously published
+                    </label>
+                </div>
+
+                <div class="form-check mb-3">
+                    <input type="checkbox" class="form-check-input" id="simultaneous_submission" name="simultaneous_submission">
+                    <label class="form-check-label" for="simultaneous_submission">
+                        This is a simultaneous submission
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group mb-4">
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="terms" name="terms">
+                <label class="form-check-label" for="terms">
+                    I agree to the submission guidelines and terms of publication *
+                </label>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-purple btn-lg">Submit Work</button>
+    </form>
+</div>
+{% endblock %} 

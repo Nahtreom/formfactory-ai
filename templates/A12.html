@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cleave.js/1.6.0/cleave.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4" id="form-title">Dynamic Form</h1>
+        <form id="dynamicForm" method="POST">
+            <!-- 表单字段将通过 JavaScript 动态生成 -->
+        </form>
+        <button type="submit" form="dynamicForm" class="btn btn-primary">Submit</button>
+    </div>
+
+    <script>
+        // 添加表单提交事件处理
+        document.getElementById('dynamicForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const formData = new FormData(this);
+            
+            fetch(window.location.href, {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                alert(data.message);  // 显示提交成功消息
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        });
+
+        // 假设这是从后端获取的配置
+        fetch('/form-config')
+            .then(response => response.json())
+            .then(config => {
+                const form = document.getElementById('dynamicForm');
+                const labelPosition = config.label_position; // "top" 或 "left"
+
+                // 设置标题
+                document.title = config.title;
+                document.getElementById('form-title').textContent = config.title;
+
+                let currentRowNumber = null;
+                let currentRow = null;
+
+                // 添加隐藏字段，标识页面类型
+                const hiddenInput = document.createElement('input');
+                hiddenInput.type = 'hidden';
+                hiddenInput.name = 'page_type';
+                hiddenInput.value = config.title; // 从后端传递的页面标识
+                form.appendChild(hiddenInput);
+
+                config.fields.forEach(field => {
+                    // 如果当前字段的 row 与 currentRowNumber 不同，创建新的行
+                    field.allowManualInput = config.allowManualInput
+                    if (field.row !== currentRowNumber) {
+                        currentRowNumber = field.row;
+                        currentRow = document.createElement('div');
+                        currentRow.className = 'form-row';
+                        form.appendChild(currentRow);
+                    }
+
+                    const formGroup = document.createElement('div');
+                    const colWidth = field.col ? `col-md-${field.col}` : 'col-md-12';
+                    formGroup.className = `form-group ${colWidth}`;
+
+                    let label, input;
+
+                    // 根据全局 labelPosition 决定布局
+                    if (labelPosition === 'left') {
+                        formGroup.classList.add('d-flex', 'align-items-center'); // 水平对齐
+                        label = document.createElement('label');
+                        label.setAttribute('for', field.name);
+                        label.textContent = field.label;
+                        label.className = 'mr-3'; // 为标签增加右边距
+
+                        // 根据字段类型生成不同的控件
+                        input = createInput(field);
+                        formGroup.appendChild(label);
+                        formGroup.appendChild(input);
+                    } else {
+                        // 默认垂直布局（label 在上方）
+                        label = document.createElement('label');
+                        label.setAttribute('for', field.name);
+                        label.textContent = field.label;
+                        formGroup.appendChild(label);
+
+                        input = createInput(field);
+                        formGroup.appendChild(input);
+                    }
+
+                    currentRow.appendChild(formGroup);
+                });
+            });
+
+
+
+        // 根据字段类型生成控件
+        function createInput(field) {
+            let input;
+            switch (field.type) {
+                case 'string':
+                    input = document.createElement('input');
+                    input.type = 'text';
+                    input.name = field.name;
+                    input.className = 'form-control';
+                    break;
+                case 'email':
+                    input = document.createElement('input');
+                    input.type = 'text';  // 改为 text 类型，移除 email 验证
+                    input.name = field.name;
+                    input.className = 'form-control';
+                    break;
+
+                case 'date':
+                    input = document.createElement('input');
+                    input.type = 'text';
+                    input.name = field.name;
+                    input.className = 'form-control';
+                    input.placeholder = 'YYYY/MM/DD';
+
+                    const allowManualInput = field.allowManualInput !== undefined ? field.allowManualInput : true;
+                    input.readOnly = !allowManualInput;
+
+                    // 移除 Cleave.js 的日期格式验证
+                    if (allowManualInput) {
+                        const cleave = new Cleave(input, {
+                            blocks: [4, 2, 2],
+                            delimiter: '/',
+                            numericOnly: false  // 允许输入任何字符
+                        });
+                    }
+
+                    // 修改 Flatpickr 配置
+                    setTimeout(() => {
+                        const fp = flatpickr(input, {
+                            dateFormat: "Y-m-d",
+                            allowInput: true,
+                            allowInvalidPreload: true,  // 允许无效的日期格式
+                            noCalendar: false,  // 保留日历但不强制验证
+                            time_24hr: false,
+                            enableTime: false
+                        });
+                    }, 0);
+                    break;
+
+
+
+                case 'radio':
+                    input = createRadioButtons(field);
+                    break;
+                case 'checkbox':
+                    input = createCheckbox(field);
+                    break;
+                default:
+                    input = document.createElement('input');
+                    input.type = 'text';
+                    break;
+            }
+            return input;
+        }
+
+        // 创建单选按钮 (radio)
+        function createRadioButtons(field) {
+            const container = document.createElement('div');
+            field.options.forEach(option => {
+                const radioWrapper = document.createElement('div');
+                radioWrapper.className = 'form-check';
+                const input = document.createElement('input');
+                input.type = 'radio';
+                input.name = field.name;
+                input.value = option;
+                input.className = 'form-check-input';
+
+                const label = document.createElement('label');
+                label.className = 'form-check-label';
+                label.textContent = option;
+
+                radioWrapper.appendChild(input);
+                radioWrapper.appendChild(label);
+                container.appendChild(radioWrapper);
+            });
+            return container;
+        }
+
+        // 创建复选框 (checkbox)
+        function createCheckbox(field) {
+            const checkboxWrapper = document.createElement('div');
+            checkboxWrapper.className = 'form-check';
+            const input = document.createElement('input');
+            input.type = 'checkbox';
+            input.name = field.name;
+            input.className = 'form-check-input';
+
+            const label = document.createElement('label');
+            label.className = 'form-check-label';
+            label.textContent = field.label;
+
+            // 复选框后面的标签
+            checkboxWrapper.appendChild(input);
+            checkboxWrapper.appendChild(label);
+            return checkboxWrapper;
+        }
+    </script>
+</body>
+
+</html>

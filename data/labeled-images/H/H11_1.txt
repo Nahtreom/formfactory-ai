@@ -1,0 +1,7 @@
+[H11_1][Company Name][402,681,1409,754]
+[H11_1][Contractor License Number]1470,681,2477,754]
+[H11_1][Project Name][402,990,2477,1064]
+[H11_1][Bid Amount ($)][402,1161,1409,1235]
+[H11_1][Estimated Duration(weeks)][1470,1162,2477,1236]
+[H11_1][Proposed Start Date][402,1472,1409,1545]
+[H11_1][Estimated Completion Date][1470,1471,2476,1545]

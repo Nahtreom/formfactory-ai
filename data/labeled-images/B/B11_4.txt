@@ -1,0 +1,4 @@
+[B11_4][Current Monthly Revenue(USD)][589,945,1408,1020]
+[B11_4][Current Team Size][1470,945,2292,1019]
+[B11_4][Upload Pitch Deck(PDF)][589,1264,2292,1339]
+[B11_4][Additional Comments][589,1436,2292,1607]

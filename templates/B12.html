@@ -1,0 +1,159 @@
+{% extends 'base.html' %}
+{% block title %}Real Estate Rental Application{% endblock %}
+
+{% block content %}
+<div class="container mt-4 mb-5">
+    <h1 class="text-center mb-4">Real Estate Rental Application</h1>
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <div class="card shadow">
+                <div class="card-body">
+                    <form method="POST" action="{{ url_for('rental_application') }}" enctype="multipart/form-data">
+                        <!-- 个人信息 -->
+                        <div class="mb-4">
+                            <h3 class="text-success mb-3">Personal Information</h3>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="full_name" class="form-label">Full Name</label>
+                                    <input type="text" class="form-control" id="full_name" name="full_name">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="email" class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" id="email" name="email">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="phone" class="form-label">Phone Number</label>
+                                    <input type="tel" class="form-control" id="phone" name="phone">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="date_of_birth" class="form-label">Date of Birth</label>
+                                    <input type="date" class="form-control" id="date_of_birth" name="date_of_birth">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 当前地址 -->
+                        <div class="mb-4">
+                            <h3 class="text-success mb-3">Current Address</h3>
+                            <div class="row">
+                                <div class="col-12 mb-3">
+                                    <label for="current_street" class="form-label">Street Address</label>
+                                    <input type="text" class="form-control" id="current_street" name="current_street">
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <label for="current_city" class="form-label">City</label>
+                                    <input type="text" class="form-control" id="current_city" name="current_city">
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <label for="current_state" class="form-label">State</label>
+                                    <input type="text" class="form-control" id="current_state" name="current_state">
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <label for="current_zip" class="form-label">ZIP Code</label>
+                                    <input type="text" class="form-control" id="current_zip" name="current_zip">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 雇佣信息 -->
+                        <div class="mb-4">
+                            <h3 class="text-success mb-3">Employment Information</h3>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="employer_name" class="form-label">Current Employer</label>
+                                    <input type="text" class="form-control" id="employer_name" name="employer_name">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="job_title" class="form-label">Job Title</label>
+                                    <input type="text" class="form-control" id="job_title" name="job_title">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="monthly_income" class="form-label">Monthly Income (USD)</label>
+                                    <input type="number" class="form-control" id="monthly_income" name="monthly_income">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="employment_length" class="form-label">Length of Employment</label>
+                                    <input type="text" class="form-control" id="employment_length" name="employment_length">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 租赁偏好 -->
+                        <div class="mb-4">
+                            <h3 class="text-success mb-3">Rental Preferences</h3>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="preferred_move_date" class="form-label">Preferred Move-in Date</label>
+                                    <input type="date" class="form-control" id="preferred_move_date" name="preferred_move_date">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="lease_term" class="form-label">Preferred Lease Term</label>
+                                    <select class="form-select" id="lease_term" name="lease_term">
+                                        <option value="">Select Term</option>
+                                        <option value="6">6 Months</option>
+                                        <option value="12">12 Months</option>
+                                        <option value="24">24 Months</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="max_rent" class="form-label">Maximum Monthly Rent (USD)</label>
+                                    <input type="number" class="form-control" id="max_rent" name="max_rent">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="preferred_area" class="form-label">Preferred Area</label>
+                                    <input type="text" class="form-control" id="preferred_area" name="preferred_area">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 其他信息 -->
+                        <div class="mb-4">
+                            <h3 class="text-success mb-3">Additional Information</h3>
+                            <div class="row">
+                                <div class="col-12 mb-3">
+                                    <label for="pets" class="form-label">Do you have any pets?</label>
+                                    <select class="form-select" id="pets" name="pets">
+                                        <option value="no">No</option>
+                                        <option value="yes">Yes</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <label for="pet_details" class="form-label">If yes, please describe your pets</label>
+                                    <textarea class="form-control" id="pet_details" name="pet_details" rows="2"></textarea>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <label for="references" class="form-label">References (Optional)</label>
+                                    <textarea class="form-control" id="references" name="references" rows="3"></textarea>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <label for="additional_info" class="form-label">Additional Comments</label>
+                                    <textarea class="form-control" id="additional_info" name="additional_info" rows="3"></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 文件上传 -->
+                        <div class="mb-4">
+                            <h3 class="text-success mb-3">Required Documents</h3>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="id_proof" class="form-label">Government ID</label>
+                                    <input type="file" class="form-control" id="id_proof" name="id_proof" accept=".pdf,.jpg,.jpeg,.png">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="income_proof" class="form-label">Proof of Income</label>
+                                    <input type="file" class="form-control" id="income_proof" name="income_proof" accept=".pdf,.jpg,.jpeg,.png">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-success btn-lg px-5">Submit Application</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

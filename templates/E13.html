@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+{% block title %}Financial Planning Consultation{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Financial Planning Consultation Request</h1>
+    
+    <div class="card shadow">
+        <div class="card-body">
+            <form method="POST" id="consultationForm">
+                <!-- Contact Information -->
+                <h4 class="mb-3">Contact Information</h4>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="name" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                </div>
+
+                <!-- Consultation Details -->
+                <h4 class="mb-3 mt-4">Consultation Details</h4>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="consultationType" class="form-label">Type of Consultation</label>
+                        <select class="form-select" id="consultationType" name="consultationType" required>
+                            <option value="">Select type</option>
+                            <option value="retirement">Retirement Planning</option>
+                            <option value="investment">Investment Planning</option>
+                            <option value="tax">Tax Planning</option>
+                            <option value="estate">Estate Planning</option>
+                            <option value="general">General Financial Planning</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="preferredDate" class="form-label">Preferred Date</label>
+                        <input type="date" class="form-control" id="preferredDate" name="preferredDate" required>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="preferredTime" class="form-label">Preferred Time</label>
+                    <select class="form-select" id="preferredTime" name="preferredTime" required>
+                        <option value="">Select time</option>
+                        <option value="morning">Morning (9:00 AM - 12:00 PM)</option>
+                        <option value="afternoon">Afternoon (1:00 PM - 4:00 PM)</option>
+                        <option value="evening">Evening (4:00 PM - 6:00 PM)</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label for="comments" class="form-label">Additional Comments</label>
+                    <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
+                </div>
+
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-warning">Schedule Consultation</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %} 

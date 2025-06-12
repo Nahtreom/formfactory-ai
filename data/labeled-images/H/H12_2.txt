@@ -1,0 +1,4 @@
+[H12_2][Select product type][604,926,950,971]
+[H12_2][Custom Product][604,976,950,1021]
+[H12_2][Standard Product][604,1026,950,1071]
+[H12_2][Product Modification][604,1076,950,1121]

@@ -1,0 +1,177 @@
+{% extends 'base.html' %}
+{% block title %}Professional Association Membership Application{% endblock %}
+
+{% block content %}
+<div class="container mt-4 mb-5">
+    <h1 class="text-center mb-4">Professional Association Membership Application</h1>
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <div class="card shadow">
+                <div class="card-body">
+                    <form method="POST" action="{{ url_for('membership_application') }}" enctype="multipart/form-data">
+                        <!-- 个人信息 -->
+                        <div class="mb-4">
+                            <h3 class="text-success mb-3">Personal Information</h3>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="full_name" class="form-label">Full Name</label>
+                                    <input type="text" class="form-control" id="full_name" name="full_name">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="email" class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" id="email" name="email">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="phone" class="form-label">Phone Number</label>
+                                    <input type="tel" class="form-control" id="phone" name="phone">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="date_of_birth" class="form-label">Date of Birth</label>
+                                    <input type="date" class="form-control" id="date_of_birth" name="date_of_birth">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 会员类型 -->
+                        <div class="mb-4">
+                            <h3 class="text-success mb-3">Membership Type</h3>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="membership_level" class="form-label">Membership Level</label>
+                                    <select class="form-select" id="membership_level" name="membership_level">
+                                        <option value="">Select Level</option>
+                                        <option value="student">Student Member</option>
+                                        <option value="associate">Associate Member</option>
+                                        <option value="professional">Professional Member</option>
+                                        <option value="fellow">Fellow Member</option>
+                                        <option value="corporate">Corporate Member</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="membership_duration" class="form-label">Membership Duration</label>
+                                    <select class="form-select" id="membership_duration" name="membership_duration">
+                                        <option value="">Select Duration</option>
+                                        <option value="1">1 Year</option>
+                                        <option value="2">2 Years</option>
+                                        <option value="3">3 Years</option>
+                                        <option value="lifetime">Lifetime</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 专业资格 -->
+                        <div class="mb-4">
+                            <h3 class="text-success mb-3">Professional Qualifications</h3>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="education_level" class="form-label">Highest Education Level</label>
+                                    <select class="form-select" id="education_level" name="education_level">
+                                        <option value="">Select Education Level</option>
+                                        <option value="bachelor">Bachelor's Degree</option>
+                                        <option value="master">Master's Degree</option>
+                                        <option value="doctorate">Doctorate</option>
+                                        <option value="professional">Professional Certification</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="field_of_study" class="form-label">Field of Study</label>
+                                    <input type="text" class="form-control" id="field_of_study" name="field_of_study">
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <label for="professional_certifications" class="form-label">Professional Certifications</label>
+                                    <textarea class="form-control" id="professional_certifications" name="professional_certifications" rows="2"></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 工作经验 -->
+                        <div class="mb-4">
+                            <h3 class="text-success mb-3">Professional Experience</h3>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="current_employer" class="form-label">Current Employer</label>
+                                    <input type="text" class="form-control" id="current_employer" name="current_employer">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="job_title" class="form-label">Job Title</label>
+                                    <input type="text" class="form-control" id="job_title" name="job_title">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="years_experience" class="form-label">Years of Experience</label>
+                                    <input type="number" class="form-control" id="years_experience" name="years_experience">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="industry" class="form-label">Industry</label>
+                                    <input type="text" class="form-control" id="industry" name="industry">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 推荐人信息 -->
+                        <div class="mb-4">
+                            <h3 class="text-success mb-3">References</h3>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="reference_name" class="form-label">Reference Name</label>
+                                    <input type="text" class="form-control" id="reference_name" name="reference_name">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="reference_email" class="form-label">Reference Email</label>
+                                    <input type="email" class="form-control" id="reference_email" name="reference_email">
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <label for="reference_relationship" class="form-label">Relationship to Reference</label>
+                                    <input type="text" class="form-control" id="reference_relationship" name="reference_relationship">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 文件上传 -->
+                        <div class="mb-4">
+                            <h3 class="text-success mb-3">Required Documents</h3>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="resume" class="form-label">Professional Resume</label>
+                                    <input type="file" class="form-control" id="resume" name="resume" accept=".pdf,.doc,.docx">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="credentials" class="form-label">Professional Credentials</label>
+                                    <input type="file" class="form-control" id="credentials" name="credentials" accept=".pdf,.jpg,.jpeg,.png">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 声明和同意 -->
+                        <div class="mb-4">
+                            <h3 class="text-success mb-3">Declaration</h3>
+                            <div class="row">
+                                <div class="col-12 mb-3">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="code_of_conduct" name="code_of_conduct">
+                                        <label class="form-check-label" for="code_of_conduct">
+                                            I agree to abide by the Association's Code of Conduct and Professional Ethics
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="information_consent" name="information_consent">
+                                        <label class="form-check-label" for="information_consent">
+                                            I consent to the collection and processing of my personal information
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-success btn-lg px-5">Submit Application</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,93 @@
+{% extends 'base.html' %}
+{% block title %}IT Support Request Form{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-center mb-4">IT Support Request Form</h1>
+    
+    <div class="card shadow">
+        <div class="card-body">
+            <form method="POST" id="supportRequestForm">
+                <div class="mb-3">
+                    <label for="requestType" class="form-label">Request Type</label>
+                    <select class="form-select" id="requestType" name="requestType">
+                        <option value="">Select request type</option>
+                        <option value="hardware">Hardware Issue</option>
+                        <option value="software">Software Issue</option>
+                        <option value="network">Network Issue</option>
+                        <option value="access">Access/Permission Request</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label for="priority" class="form-label">Priority Level</label>
+                    <select class="form-select" id="priority" name="priority">
+                        <option value="">Select priority level</option>
+                        <option value="urgent">Urgent - System Down</option>
+                        <option value="high">High - Work Blocked</option>
+                        <option value="medium">Medium - Limited Functionality</option>
+                        <option value="low">Low - Minor Issue</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label for="subject" class="form-label">Subject</label>
+                    <input type="text" class="form-control" id="subject" name="subject" 
+                           placeholder="Brief description of the issue">
+                </div>
+
+                <div class="mb-3">
+                    <label for="description" class="form-label">Detailed Description</label>
+                    <textarea class="form-control" id="description" name="description" 
+                              rows="4"></textarea>
+                </div>
+
+                <div class="mb-3">
+                    <label for="location" class="form-label">Location/Department</label>
+                    <input type="text" class="form-control" id="location" name="location">
+                </div>
+
+                <div class="mb-3">
+                    <label for="affectedUsers" class="form-label">Number of Affected Users</label>
+                    <input type="number" class="form-control" id="affectedUsers" name="affectedUsers" 
+                           min="1" value="1">
+                </div>
+
+                <div class="mb-3">
+                    <label for="availableTime" class="form-label">Preferred Contact Time</label>
+                    <input type="text" class="form-control" id="availableTime" name="availableTime" 
+                           placeholder="e.g., Mon-Fri 9AM-5PM">
+                </div>
+
+                <div class="mb-3">
+                    <label for="screenshots" class="form-label">Screenshots (Optional)</label>
+                    <input type="file" class="form-control" id="screenshots" name="screenshots" multiple>
+                    <div class="form-text">Upload relevant screenshots or error messages</div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="requesterName" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="requesterName" name="requesterName">
+                    </div>
+                    
+                    <div class="col-md-6 mb-3">
+                        <label for="requesterEmail" class="form-label">Your Email</label>
+                        <input type="email" class="form-control" id="requesterEmail" name="requesterEmail">
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="phoneNumber" class="form-label">Contact Phone Number</label>
+                    <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber">
+                </div>
+
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Submit Support Request</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %} 

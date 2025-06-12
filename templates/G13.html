@@ -1,0 +1,110 @@
+{% extends 'base.html' %}
+{% block title %}Contractor Onboarding Form{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Contractor Onboarding Form</h1>
+    
+    <div class="card shadow">
+        <div class="card-body">
+            <form method="POST" id="contractorOnboardingForm">
+                <!-- Personal Information -->
+                <h4 class="mb-3">Personal Information</h4>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="fullName" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="fullName" name="fullName" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="businessName" class="form-label">Business Name (if applicable)</label>
+                        <input type="text" class="form-control" id="businessName" name="businessName">
+                    </div>
+                </div>
+
+                <!-- Contact Information -->
+                <h4 class="mb-3 mt-4">Contact Information</h4>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" name="phone" required>
+                    </div>
+                </div>
+
+                <!-- Business Details -->
+                <h4 class="mb-3 mt-4">Business Details</h4>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="taxId" class="form-label">Tax ID/EIN</label>
+                        <input type="text" class="form-control" id="taxId" name="taxId" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="businessType" class="form-label">Business Type</label>
+                        <select class="form-select" id="businessType" name="businessType" required>
+                            <option value="">Select business type</option>
+                            <option value="soleProprietor">Sole Proprietorship</option>
+                            <option value="llc">LLC</option>
+                            <option value="corporation">Corporation</option>
+                            <option value="partnership">Partnership</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Service Information -->
+                <h4 class="mb-3 mt-4">Service Information</h4>
+                <div class="mb-3">
+                    <label for="serviceDescription" class="form-label">Services to be Provided</label>
+                    <textarea class="form-control" id="serviceDescription" name="serviceDescription" rows="3" required></textarea>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="startDate" class="form-label">Start Date</label>
+                        <input type="date" class="form-control" id="startDate" name="startDate" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="endDate" class="form-label">Expected End Date</label>
+                        <input type="date" class="form-control" id="endDate" name="endDate">
+                    </div>
+                </div>
+
+                <!-- Required Documents -->
+                <h4 class="mb-3 mt-4">Required Documents</h4>
+                <div class="mb-3">
+                    <label for="w9Form" class="form-label">W-9 Form</label>
+                    <input type="file" class="form-control" id="w9Form" name="w9Form" required>
+                </div>
+                <div class="mb-3">
+                    <label for="insuranceCert" class="form-label">Insurance Certificate</label>
+                    <input type="file" class="form-control" id="insuranceCert" name="insuranceCert" required>
+                </div>
+                <div class="mb-3">
+                    <label for="licenseCert" class="form-label">Professional License/Certifications</label>
+                    <input type="file" class="form-control" id="licenseCert" name="licenseCert">
+                </div>
+
+                <!-- Agreements -->
+                <h4 class="mb-3 mt-4">Agreements</h4>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="termsAgreed" name="termsAgreed" required>
+                    <label class="form-check-label" for="termsAgreed">
+                        I agree to the terms and conditions of the contractor agreement
+                    </label>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="confidentialityAgreed" name="confidentialityAgreed" required>
+                    <label class="form-check-label" for="confidentialityAgreed">
+                        I agree to maintain confidentiality of all company information
+                    </label>
+                </div>
+
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-secondary">Submit Onboarding Form</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %} 

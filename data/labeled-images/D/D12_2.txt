@@ -1,0 +1,6 @@
+[D12_2][Select request type][609,528,1052,572]
+[D12_2][Hardware lssue][609,578,1052,622]
+[D12_2][Software Issue][609,628,1052,672]
+[D12_2][Network Issue][609,678,1052,722]
+[D12_2][Access/Permission Request][609,728,1052,772]
+[D12_2][Other][609,778,1052,822]

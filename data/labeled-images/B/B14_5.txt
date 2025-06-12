@@ -1,0 +1,5 @@
+[B14_5][Select Education Level][945,1361,1350,1405]
+[B14_5][Bachelor's Degree][945,1411,1350,1455]
+[B14_5][Master's Degree][945,1461,1350,1505]
+[B14_5][Doctorate][945,1511,1350,1555]
+[B14_5][Professional Certification][945,1561,1350,1605]

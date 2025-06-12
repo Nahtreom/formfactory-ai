@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+{% block title %}Medical Research Study Enrollment{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Medical Research Study Enrollment Form</h1>
+    
+    <div class="card shadow">
+        <div class="card-body">
+            <form method="POST" id="researchEnrollmentForm">
+                <!-- Personal Information -->
+                <h4 class="mb-3">Personal Information</h4>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="fullName" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="fullName" name="fullName" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="age" class="form-label">Age</label>
+                        <input type="number" class="form-control" id="age" name="age" required min="18">
+                    </div>
+                </div>
+
+                <!-- Medical History -->
+                <h4 class="mb-3 mt-4">Medical History</h4>
+                <div class="mb-3">
+                    <label for="existingConditions" class="form-label">Existing Medical Conditions</label>
+                    <textarea class="form-control" id="existingConditions" name="existingConditions" rows="3"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="medications" class="form-label">Current Medications</label>
+                    <textarea class="form-control" id="medications" name="medications" rows="3"></textarea>
+                </div>
+
+                <!-- Study Preferences -->
+                <h4 class="mb-3 mt-4">Study Preferences</h4>
+                <div class="mb-3">
+                    <label for="studyType" class="form-label">Preferred Study Type</label>
+                    <select class="form-select" id="studyType" name="studyType" required>
+                        <option value="">Select study type</option>
+                        <option value="clinical">Clinical Trial</option>
+                        <option value="observational">Observational Study</option>
+                        <option value="survey">Survey-based Research</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="availability" class="form-label">Availability</label>
+                    <select class="form-select" id="availability" name="availability" required>
+                        <option value="">Select availability</option>
+                        <option value="weekday">Weekdays</option>
+                        <option value="weekend">Weekends</option>
+                        <option value="both">Both</option>
+                    </select>
+                </div>
+
+                <!-- Contact Information -->
+                <h4 class="mb-3 mt-4">Contact Information</h4>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" name="phone" required>
+                    </div>
+                </div>
+
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-danger">Submit Enrollment</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %} 

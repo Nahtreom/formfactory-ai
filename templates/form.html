@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block title %}Form 1{% endblock %}
+
+{% block content %}
+<h1 class="mb-4">Flask Bootstrap Form</h1>
+<form method="POST" action="/form1">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+        <label for="category">Category</label>
+        <select class="form-control" id="category" name="category">
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Gender</label><br>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" id="male" name="gender" value="Male">
+            <label class="form-check-label" for="male">Male</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" id="female" name="gender" value="Female">
+            <label class="form-check-label" for="female">Female</label>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="subscribe" name="subscribe">
+            <label class="form-check-label" for="subscribe">Subscribe to newsletter</label>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+{% endblock %}
